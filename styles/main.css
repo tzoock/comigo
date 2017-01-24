@@ -1,8 +1,37 @@
-@media (max-width: 700px) {
-    nav {
-        display: none;
-    }
-    .try {
-        color: crimson;
-    }
+a:link,
+a:visited {
+    color: #000000;
+    text-decoration: none;
 }
+
+a:active,
+a:focus,
+a:hover {
+    color: #F14848;
+}
+
+li ul li a:link,
+li ul li a:visited {
+    color: #000000;
+    text-decoration: none;
+}
+
+li ul li a:active,
+li ul li a:focus,
+li ul li a:hover {
+    color: white;
+    background-color: #F14848;
+}
+
+section a:link,
+section a:visited {
+    color: #FFFFFF ;
+    background-color: red ;
+    border-radius: 5px;
+}
+
+section a:hover,
+section a:active {
+    font-size: 18px;
+}
+
