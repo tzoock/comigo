@@ -8,6 +8,7 @@ a:active,
 a:focus,
 a:hover {
     color: #F14848;
+    outline: none;
 }
 
 li ul li a:link,
@@ -23,15 +24,72 @@ li ul li a:hover {
     background-color: #F14848;
 }
 
-section a:link,
-section a:visited {
+
+dt a:link,
+dt a:visited {
+    color: #000000;
+    background-color: transparent;
+}
+
+dt a:active,
+dt a:focus,
+dt a:hover {
+    color: #F14848;
+}
+
+.rd-btn:link,
+.rd-btn:visited {
     color: #FFFFFF ;
     background-color: red ;
     border-radius: 5px;
 }
 
-section a:hover,
-section a:active {
+.rd-btn:hover,
+.rd-btn:active {
     font-size: 18px;
 }
 
+.wt-btn:link,
+.wt-btn:visited {
+color: red;
+    background-color: white;
+    border-radius: 5px;
+}
+
+.wt-btn:hover,
+.wt-btn:active {
+    font-size: 18px;
+}
+
+.rd-back {
+    background-color: red;
+}
+
+footer a:link,
+footer a:visited {
+    color: #FFFFFF;
+}
+
+footer a:active,
+footer a:focus,
+footer a:hover {
+    color: #F14848;
+}
+
+.bb:active,
+.bb:focus,
+.bb:hover {
+    color: #FFFFFF;
+}
+
+.site-footer div a:link,
+.site-footer div a:visited {
+    color: white;
+}
+
+.site-footer div a:active,
+.site-footer div a:focus,
+.site-footer div a:hover {
+    color: white;
+    font-weight: bold;
+}
