@@ -65,31 +65,23 @@ color: red;
     background-color: red;
 }
 
-footer a:link,
-footer a:visited {
-    color: #FFFFFF;
+.site-footer a:link,
+.site-footer a:visited {
+    color: gray;
+    background-color: transparent;
 }
 
-footer a:active,
-footer a:focus,
-footer a:hover {
-    color: #F14848;
-}
-
-.bb:active,
-.bb:focus,
-.bb:hover {
-    color: #FFFFFF;
-}
-
-.site-footer div a:link,
-.site-footer div a:visited {
+.site-footer a:active,
+.site-footer a:focus,
+.site-footer a:hover {
     color: white;
+
 }
 
-.site-footer div a:active,
-.site-footer div a:focus,
-.site-footer div a:hover {
+.site-footer>nav>ul>li>a:link,
+.site-footer>nav>ul>li>a:visited,
+.site-footer>nav>ul>li>a:active,
+.site-footer>nav>ul>li>a:focus,
+.site-footer>nav>ul>li>a:hover {
     color: white;
-    font-weight: bold;
 }
