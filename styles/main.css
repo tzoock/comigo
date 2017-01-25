@@ -18,9 +18,7 @@ a:hover {
     outline: none;
 }
 
-li {
-    list-style: none;
-}
+
 /*-------------nav header------------------*/
 header li li a:link,
 header li li a:visited {
@@ -39,12 +37,14 @@ header li li a:hover {
     color: #F14848;
 }
 
-/*=============================*/
-
+/*============dt=================*/
+.drk {
+background-color: darkgray;
+}
 
 dt a:link,
 dt a:visited {
-    color: #000000;
+    color: #7a7a7a;
     background-color: transparent;
 }
 
@@ -84,34 +84,31 @@ dt a:hover {
 /*===========footer================*/
 
 
-.site-footer a:link,
-.site-footer a:visited {
+.site-footer nav ul li a:link,
+.site-footer nav ul li a:visited {
     color: gray;
-    background-color: transparent;
 }
 
-.site-footer a:active,
-.site-footer a:focus,
-.site-footer a:hover {
-    color: white;
-
+.site-footer nav ul li a:hover {
+    color: red;
 }
 
-.site-footer > nav > ul > li > a:link,
-.site-footer > nav > ul > li > a:visited,
-.site-footer > nav > ul > li > a:active,
-.site-footer > nav > ul > li > a:focus,
-.site-footer > nav > ul > li > a:hover {
+.site-footer a:link {
     color: white;
 }
+/*.site-footer > nav > ul > li > a:link,*/
+/*.site-footer > nav > ul > li > a:visited,*/
+/*.site-footer > nav > ul > li > a:active,*/
+/*.site-footer > nav > ul > li > a:focus,*/
+/*.site-footer > nav > ul > li > a:hover {*/
+    /*color: white;*/
+/*}*/
 
 
 .top-back {
     height: 400px;
-    background-image: url(comigo/other/homepage-featured-new-1920x745.jpg);
-    background-position: center center;
     background-size: cover;
-    background-repeat: no-repeat;
+    background: url(comigo/other/homepage-featured-new-1920x745.jpg) no-repeat center center;
 }
 
 .site-footer {
@@ -132,34 +129,29 @@ dt a:hover {
     background-color: #F9F9F9;
 }
 
-.rdd {
+section dive > .rdd {
     background-color: #F14848;
+    color: white;
 }
 
 .exp {
     width: 160px;
     height: 300px;
-    background-image: url("comigo/blog/ibc_post_EI-750x508.png");
-    background-repeat: no-repeat;
-    background-position: center ;
+    background: url("comigo/blog/ibc_post_EI-750x508.png") no-repeat center;
     padding-left: 17%;
 }
 
 .learn {
     width: 160px;
     height: 300px;
-    background-image: url("comigo/blog/IMG_9294-750x563.jpeg");
-    background-repeat: no-repeat;
-    background-position: center ;
+    background: url("comigo/blog/IMG_9294-750x563.jpeg") no-repeat center;
     padding-left: 17%;
 }
 
 .data {
     width: 160px;
     height: 300px;
-    background-image: url("comigo/blog/Image-Blog-Yoav_356121362-copy-750x563.jpg");
-    background-repeat: no-repeat;
-    background-position: center ;
+    background: url("comigo/blog/Image-Blog-Yoav_356121362-copy-750x563.jpg") no-repeat center;
 }
 
 .inf {
@@ -173,9 +165,7 @@ dt a:hover {
 .crapy {
     width: 160px;
     height: 300px;
-    background-image: url("comigo/blog/post_quality-750x508.jpeg");
-    background-repeat: no-repeat;
-    background-position: center ;
+    background: url("comigo/blog/post_quality-750x508.jpeg") no-repeat center;
 }
 
 aside>div {
