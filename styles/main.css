@@ -3,6 +3,8 @@
         display: none;
     }
 }
+
+/*--------global--------------*/
 a:link,
 a:visited {
     color: #000000;
@@ -16,18 +18,29 @@ a:hover {
     outline: none;
 }
 
-li ul li a:link,
-li ul li a:visited {
+li {
+    list-style: none;
+}
+/*-------------nav header------------------*/
+header li li a:link,
+header li li a:visited {
     color: #000000;
     text-decoration: none;
 }
 
-li ul li a:active,
-li ul li a:focus,
-li ul li a:hover {
+header li li a:active,
+header li li a:focus,
+header li li a:hover {
     color: white;
     background-color: #F14848;
 }
+
+#home {
+    color: #F14848;
+}
+
+/*=============================*/
+
 
 dt a:link,
 dt a:visited {
@@ -41,11 +54,14 @@ dt a:hover {
     color: #F14848;
 }
 
+/*=============btns=================*/
+
 .rd-btn:link,
 .rd-btn:visited {
+    padding: 5px 3px 5px 3px;
     color: #FFFFFF;
     background-color: red;
-    border-radius: 5px;
+    border-radius: 3px;
 }
 
 .rd-btn:hover,
@@ -65,14 +81,8 @@ dt a:hover {
     font-size: 18px;
 }
 
-.rd-back {
-    color: white;
-    background-image: url("comigo/other/home-tv-service-bg1.png") ;
-}
+/*===========footer================*/
 
-.wt-back {
-    background-image: url("comigo/other/home-tv-service-bg2.png");
-}
 
 .site-footer a:link,
 .site-footer a:visited {
@@ -132,7 +142,7 @@ dt a:hover {
     background-image: url("comigo/blog/ibc_post_EI-750x508.png");
     background-repeat: no-repeat;
     background-position: center ;
-
+    padding-left: 17%;
 }
 
 .learn {
@@ -141,6 +151,7 @@ dt a:hover {
     background-image: url("comigo/blog/IMG_9294-750x563.jpeg");
     background-repeat: no-repeat;
     background-position: center ;
+    padding-left: 17%;
 }
 
 .data {
@@ -169,4 +180,14 @@ dt a:hover {
 
 aside>div {
     background-color: #F14848;
+}
+
+
+.rd-back {
+    color: white;
+    background-image: url("comigo/other/home-tv-service-bg1.png") ;
+}
+
+.wt-back {
+    background-image: url("comigo/other/home-tv-service-bg2.png");
 }
