@@ -11,8 +11,6 @@ body {
     font-size: 100%;
     font-family: 'Source Sans Pro', sans-serif;
     text-align: center;
-    width: 100%;
-    height: auto;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -60,13 +58,13 @@ li {
 /* ================================ top back */
 
 .top-back h1 {
-    font-size: 1.6rem;
+    font-size: 2rem;
     color: white;
 
 }
 
 .top-back h3 {
-    font-size: 3rem;
+    font-size: 3.8rem;
     color: white;
 }
 
@@ -82,31 +80,49 @@ li {
 /*==================  why  */
 
 .why h3 {
-    font-size: 2.8rem;
+    font-size: 3rem;
 }
 
 .why h2 {
+    font-size: 1.2rem;
+}
+
+
+/*============ DL =================*/
+.service h2 {
+    font-size: 2.1rem;
+}
+
+.service h5 {
+    font-size: 1.2rem;
+}
+
+.service {
+    background-color: #1E2024;
+    color: white;
+    font-size: 1.2rem;
+
+}
+.service a
+{
+    color: #7a7a7a;
     font-size: 1.6rem;
 }
 
 
-/*============dt=================*/
-.engage {
-    background-color: darkgray;
-
-}
-
-dt a:link,
-dt a:visited {
-    color: #7a7a7a;
-    background-color: transparent;
-}
-
-dt a:active,
-dt a:focus,
-dt a:hover {
+.service a:hover {
     color: #F14848;
 }
+
+
+
+/*.participation,*/
+/*.discovery,*/
+/*.commerce,*/
+/*.advertising,*/
+/*.customize {*/
+    /*display: none;*/
+/*}*/
 
 /*=============btns=================*/
 
@@ -182,6 +198,8 @@ dt a:hover {
 
 .gryer {
     background-color: #EFEFEF;
+    width: 450px;
+    height: 320px;
 }
 
 .gry {
@@ -210,36 +228,44 @@ aside > div {
 }
 
 /*===========blog================*/
-#blogs {
+
+
+#blogs h3 {
+font-size: 4rem;
 
 }
 
+#blogs > div a {
+    color: white;
+    font-size: 1.2rem;
+}
+
+#blogs li[class] {
+    width: 17.5%;
+    height: 350px;
+}
+
 .exp {
-    width: 160px;
     height: 300px;
     background: url("comigo/blog/ibc_post_EI-750x508.png") no-repeat center;
 }
 
 .learn {
-    width: 160px;
     height: 300px;
     background: url("comigo/blog/IMG_9294-750x563.jpeg") no-repeat center;
 }
 
 .data {
-    width: 160px;
     height: 300px;
     background: url("comigo/blog/Image-Blog-Yoav_356121362-copy-750x563.jpg") no-repeat center;
 }
 
 .inf {
-    width: 160px;
     height: 300px;
     background: url("comigo/blog/post_tv_connect-750x508.jpeg") no-repeat center;
 }
 
 .crapy {
-    width: 160px;
     height: 300px;
     background: url("comigo/blog/post_quality-750x508.jpeg") no-repeat center;
 }
@@ -249,10 +275,3 @@ section dive > .rdd {
     color: white;
 }
 
-#blogs > div > a {
-    color: white;
-}
-
-#blogs div li {
-    width: 16.6%;
-}
