@@ -1,10 +1,37 @@
-@media (max-width: 700px) {
-    body {
-        display: none;
-    }
+/*--------global--------------*/
+
+html,
+body {
+    font-size: 100%;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: normal;
 }
 
-/*--------global--------------*/
+h1 {
+    font-size: 3rem;
+}
+
+h2
+{
+    font-size: 3rem;
+}
+
+h3 {
+    font-size: 3.4rem;
+}
+
+h4 {
+    font-size: 2.8rem;
+}
+
+h5 {
+    font-size: 2.2rem;
+}
+
+h6 {
+    font-size: 1.6rem;
+}
+
 a:link,
 a:visited {
     color: #000000;
@@ -18,6 +45,13 @@ a:hover {
     outline: none;
 }
 
+li {
+    list-style: none;
+}
+
+* {
+    text-align: center;
+}
 
 /*-------------nav header------------------*/
 header li li a:link,
@@ -37,9 +71,41 @@ header li li a:hover {
     color: #F14848;
 }
 
+/* top back */
+
+.top-back h1 {
+    font-size: 1.6rem;
+    color: white;
+}
+
+.top-back h3 {
+    font-size: 3rem;
+    color: white;
+}
+
+.top-back {
+    height: 400px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-image: url(comigo/other/homepage-featured-new-1920x745.jpg);
+}
+
+/*==================  why  */
+
+.why h3 {
+    font-size: 2.8rem;
+}
+
+.why h2 {
+    font-size: 1.6rem;
+}
+
+
 /*============dt=================*/
-.drk {
-background-color: darkgray;
+.engage {
+    background-color: darkgray;
+    
 }
 
 dt a:link,
@@ -62,6 +128,7 @@ dt a:hover {
     color: #FFFFFF;
     background-color: red;
     border-radius: 3px;
+    padding: 8px;
 }
 
 .rd-btn:hover,
@@ -74,6 +141,7 @@ dt a:hover {
     color: red;
     background-color: white;
     border-radius: 5px;
+    padding: 8px;
 }
 
 .wt-btn:hover,
@@ -82,7 +150,6 @@ dt a:hover {
 }
 
 /*===========footer================*/
-
 
 .site-footer nav ul li a:link,
 .site-footer nav ul li a:visited {
@@ -96,29 +163,34 @@ dt a:hover {
 .site-footer a:link {
     color: white;
 }
-/*.site-footer > nav > ul > li > a:link,*/
-/*.site-footer > nav > ul > li > a:visited,*/
-/*.site-footer > nav > ul > li > a:active,*/
-/*.site-footer > nav > ul > li > a:focus,*/
-/*.site-footer > nav > ul > li > a:hover {*/
-    /*color: white;*/
-/*}*/
 
-
-.top-back {
-    height: 400px;
-    background-size: cover;
-    background: url(comigo/other/homepage-featured-new-1920x745.jpg) no-repeat center center;
+.site-footer > nav > ul > li > a:link,
+.site-footer > nav > ul > li > a:visited,
+.site-footer > nav > ul > li > a:active,
+.site-footer > nav > ul > li > a:focus,
+.site-footer > nav > ul > li > a:hover {
+    color: white;
 }
+
+.site-footer .fotfot a:link {
+    color: grey;
+}
+
+.site-footer .fotfot a:hover {
+    color: white;
+}
+
+/*==============backgrounds===============*/
+
+
 
 .site-footer {
     background-color: #1E2024;
 }
 
-
 .gryish {
     background-color: #EFEFEF;
-   
+
 }
 
 .gryer {
@@ -129,23 +201,34 @@ dt a:hover {
     background-color: #F9F9F9;
 }
 
-section dive > .rdd {
+aside > div {
     background-color: #F14848;
+}
+
+.rd-back {
     color: white;
+    background-image: url("comigo/other/home-tv-service-bg1.png");
+}
+
+.wt-back {
+    background-image: url("comigo/other/home-tv-service-bg2.png");
+}
+
+/*===========blog================*/
+#blogs {
+
 }
 
 .exp {
     width: 160px;
     height: 300px;
     background: url("comigo/blog/ibc_post_EI-750x508.png") no-repeat center;
-    padding-left: 17%;
 }
 
 .learn {
     width: 160px;
     height: 300px;
     background: url("comigo/blog/IMG_9294-750x563.jpeg") no-repeat center;
-    padding-left: 17%;
 }
 
 .data {
@@ -157,9 +240,7 @@ section dive > .rdd {
 .inf {
     width: 160px;
     height: 300px;
-    background-image: url("comigo/blog/post_tv_connect-750x508.jpeg");
-    background-repeat: no-repeat;
-    background-position: center ;
+    background: url("comigo/blog/post_tv_connect-750x508.jpeg") no-repeat center;
 }
 
 .crapy {
@@ -168,16 +249,15 @@ section dive > .rdd {
     background: url("comigo/blog/post_quality-750x508.jpeg") no-repeat center;
 }
 
-aside>div {
+section dive > .rdd {
     background-color: #F14848;
-}
-
-
-.rd-back {
     color: white;
-    background-image: url("comigo/other/home-tv-service-bg1.png") ;
 }
 
-.wt-back {
-    background-image: url("comigo/other/home-tv-service-bg2.png");
+#blogs > div > a {
+    color: white;
+}
+
+#blogs div li {
+    width: 16.6%;
 }
