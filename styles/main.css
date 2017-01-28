@@ -1,7 +1,7 @@
 /*--------global--------------*/
 
 @media (max-width: 700px) {
-    nav.top-menu{
+    .top-menu nav {
         display: none;
     }
 }
@@ -11,6 +11,8 @@ body {
     font-size: 100%;
     font-family: 'Source Sans Pro', sans-serif;
     text-align: center;
+    color: #3D3D3D;
+
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -18,7 +20,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 a:link,
 a:visited {
-    color: #000000;
+    color: #3D3D3D;
     text-decoration: none;
 }
 
@@ -36,9 +38,14 @@ li {
 
 /*-------------nav header------------------*/
 
+.top-menu {
+    display: inline-block;
+
+}
+
 .ins-nav a:link,
 .ins-nav a:visited {
-    color: #000000;
+    color: #3D3D3D;
     display: none;
 
 }
@@ -60,16 +67,19 @@ li {
 .top-back h1 {
     font-size: 2rem;
     color: white;
-
+padding-top: 10rem;
+    margin-bottom: 0px;
 }
 
 .top-back h3 {
     font-size: 3.8rem;
     color: white;
+    margin-top: 0px;
+    margin-bottom: 35px;
 }
 
 .top-back {
-    height: 400px;
+    height: 520px;
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -79,12 +89,17 @@ li {
 
 /*==================  why  */
 
+.why {
+    padding-bottom: 100px;
+}
 .why h3 {
     font-size: 3rem;
+    margin-bottom: 0px;
 }
 
 .why h2 {
     font-size: 1.2rem;
+    margin-bottom: 35px;
 }
 
 
@@ -129,8 +144,8 @@ li {
 .rd-btn:link,
 .rd-btn:visited {
     color: #FFFFFF;
-    background-color: red;
-    border-radius: 8px;
+    background-color: #F14848;
+    border-radius: 20px;
     padding: 13px 26px;
 }
 
@@ -141,9 +156,9 @@ li {
 
 .wt-btn:link,
 .wt-btn:visited {
-    color: red;
+    color: #F14848;
     background-color: white;
-    border-radius: 8px;
+    border-radius: 20px;
     padding: 13px 26px;
 }
 
