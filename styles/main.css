@@ -138,6 +138,42 @@ padding-top: 10rem;
 /*.customize {*/
     /*display: none;*/
 /*}*/
+/*=================== rd-wt */
+
+.rd-wt {
+    display: block;
+}
+
+.rd-wt h2 {
+    padding-top: 50%;
+ line-height: 0%;
+    font-size: 2.2rem;
+}
+
+.rd-wt p {
+    margin-bottom: 30px;
+}
+.rd-back {
+    color: white;
+    height: 35rem;
+    width: 50%;
+    background-image: url("comigo/other/ic_EI_cloud_2_home_page.png"), url("comigo/other/home-tv-service-bg1.png");
+    background-repeat: no-repeat;
+    background-position: 50% 20%, center;
+    background-size: 45%, cover;
+}
+
+.wt-back {
+    height: 600px;
+    width: 50%;
+    background-image: url("comigo/other/ic-stb-screens.png"), url("comigo/other/home-tv-service-bg2.png");
+    background-repeat: no-repeat;
+    background-position: 50% 20%, center;
+    background-size: 45%, cover;
+}
+
+
+
 
 /*=============btns=================*/
 
@@ -147,6 +183,8 @@ padding-top: 10rem;
     background-color: #F14848;
     border-radius: 20px;
     padding: 13px 26px;
+    margin: 20px 30px;
+    
 }
 
 .rd-btn:hover,
@@ -160,11 +198,31 @@ padding-top: 10rem;
     background-color: white;
     border-radius: 20px;
     padding: 13px 26px;
+    margin: 20px 30px;
 }
 
 .wt-btn:hover,
 .wt-btn:active {
     font-size: 18px;
+}
+/* ============================== tv */
+
+.tv {
+    height: 600px;
+    background-image: url("comigo/other/screen_whos_on.jpg");
+    background-repeat: no-repeat;
+    background-position: 100% 50%;
+    background-size: 60%;
+    text-align: left;
+    padding-left: 5rem;
+}
+
+.tv h3 {
+
+    font-size: 3rem;
+    margin-bottom: 0.4rem;
+    padding-top: 5rem;
+
 }
 
 /*===========footer================*/
@@ -225,22 +283,7 @@ aside > div {
     background-color: #F14848;
 }
 
-.rd-back {
-    color: white;
-    height: 500px;
-    background-image: url("comigo/other/ic_EI_cloud_2_home_page.png"), url("comigo/other/home-tv-service-bg1.png");
-    background-repeat: no-repeat;
-    background-position: bottom, center;
-    background-size: auto, cover;
-}
 
-.wt-back {
-    height: 500px;
-    background-image: url("comigo/other/ic-stb-screens.png"), url("comigo/other/home-tv-service-bg2.png");
-    background-repeat: no-repeat;
-    background-position: bottom, center;
-    background-size: auto, cover;
-}
 
 /*===========blog================*/
 
