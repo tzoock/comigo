@@ -140,9 +140,6 @@ padding-top: 10rem;
 /*}*/
 /*=================== rd-wt */
 
-.rd-wt {
-    display: block;
-}
 
 .rd-wt h2 {
     padding-top: 50%;
@@ -161,15 +158,17 @@ padding-top: 10rem;
     background-repeat: no-repeat;
     background-position: 50% 20%, center;
     background-size: 45%, cover;
+    display: inline-block;
 }
 
 .wt-back {
-    height: 600px;
+    height: 35rem;
     width: 50%;
     background-image: url("comigo/other/ic-stb-screens.png"), url("comigo/other/home-tv-service-bg2.png");
     background-repeat: no-repeat;
     background-position: 50% 20%, center;
     background-size: 45%, cover;
+    display: inline-block;
 }
 
 
@@ -184,7 +183,7 @@ padding-top: 10rem;
     border-radius: 20px;
     padding: 13px 26px;
     margin: 20px 30px;
-    
+
 }
 
 .rd-btn:hover,
