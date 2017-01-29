@@ -1,23 +1,20 @@
 /*--------global--------------*/
 
-@media (max-width: 700px) {
-    .top-menu nav {
-        display: none;
-    }
-}
+
 
 html,
 body {
-    font-size: 100%;
+    font-size: 1em;
     font-family: 'Source Sans Pro', sans-serif;
-    text-align: center;
     color: #3D3D3D;
-
+    margin: 0;
+    box-sizing: border-box;
 }
 
 h1, h2, h3, h4, h5, h6 {
     font-weight: normal;
 }
+
 a:link,
 a:visited {
     color: #3D3D3D;
@@ -35,12 +32,22 @@ li {
     list-style: none;
 }
 
-
 /*-------------nav header------------------*/
 
 .top-menu {
+    width: 100%;
+    background-color: white;
     display: inline-block;
+    position: fixed;
+    margin: 0;
+}
 
+.top-nav {
+    padding-left: 60%;
+}
+
+.top-menu .top-nav li {
+    float: left;
 }
 
 .ins-nav a:link,
@@ -67,41 +74,43 @@ li {
 .top-back h1 {
     font-size: 2rem;
     color: white;
-padding-top: 10rem;
-    margin-bottom: 0px;
+    padding-top: 10rem;
+    margin-bottom: 0;
 }
 
 .top-back h3 {
     font-size: 3.8rem;
     color: white;
-    margin-top: 0px;
+    margin-top: 0;
     margin-bottom: 35px;
 }
 
 .top-back {
+
+    clear: left;
     height: 520px;
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
     background-image: url(comigo/other/homepage-featured-new-1920x745.jpg);
+    text-align: center;
 }
-
 
 /*==================  why  */
 
 .why {
     padding-bottom: 100px;
 }
+
 .why h3 {
     font-size: 3rem;
-    margin-bottom: 0px;
+    margin-bottom: 0;
 }
 
 .why h2 {
     font-size: 1.2rem;
     margin-bottom: 35px;
 }
-
 
 /*============ DL =================*/
 .service h2 {
@@ -118,38 +127,35 @@ padding-top: 10rem;
     font-size: 1.2rem;
 
 }
-.service a
-{
+
+.service a {
     color: #7a7a7a;
     font-size: 1.6rem;
 }
 
-
 .service a:hover {
     color: #F14848;
 }
-
-
 
 /*.participation,*/
 /*.discovery,*/
 /*.commerce,*/
 /*.advertising,*/
 /*.customize {*/
-    /*display: none;*/
+/*display: none;*/
 /*}*/
 /*=================== rd-wt */
 
-
 .rd-wt h2 {
     padding-top: 50%;
- line-height: 0%;
+    line-height: 0;
     font-size: 2.2rem;
 }
 
 .rd-wt p {
     margin-bottom: 30px;
 }
+
 .rd-back {
     color: white;
     height: 35rem;
@@ -170,9 +176,6 @@ padding-top: 10rem;
     background-size: 45%, cover;
     display: inline-block;
 }
-
-
-
 
 /*=============btns=================*/
 
@@ -204,6 +207,7 @@ padding-top: 10rem;
 .wt-btn:active {
     font-size: 18px;
 }
+
 /* ============================== tv */
 
 .tv {
@@ -226,10 +230,22 @@ padding-top: 10rem;
 
 /*===========footer================*/
 
-.site-footer nav ul li a:link,
-.site-footer nav ul li a:visited {
-    color: gray;
+.center-footer {
+    width: 90%;
+    max-width: 1230px;
+    margin: 0 auto;
 }
+
+.site-footer {
+    background-color: #1E2024;
+
+}
+
+.fotfot {
+
+    background-color: #151515;
+}
+
 
 .site-footer nav ul li a:hover {
     color: red;
@@ -257,8 +273,6 @@ padding-top: 10rem;
 
 /*==============backgrounds===============*/
 
-
-
 .site-footer {
     background-color: #1E2024;
 }
@@ -282,13 +296,10 @@ aside > div {
     background-color: #F14848;
 }
 
-
-
 /*===========blog================*/
 
-
 #blogs h3 {
-font-size: 4rem;
+    font-size: 4rem;
 
 }
 
@@ -327,8 +338,44 @@ font-size: 4rem;
     background: url("comigo/blog/post_quality-750x508.jpeg") no-repeat center;
 }
 
-section dive > .rdd {
+section dive  .rdd {
     background-color: #F14848;
     color: white;
 }
 
+/*============================ @ media  */
+
+@media (max-width: 1450px) {
+    .center-footer {
+        max-width: 1050px;
+    }
+}
+
+@media (max-width: 1200px) {
+    .center-footer {
+        max-width: 880px;
+    }
+}
+
+@media (max-width: 990px) {
+    .center-footer {
+        max-width: 660px;
+    }
+}
+
+@media (max-width: 700px) {
+    .center-footer {
+        max-width: 440px;
+    }
+}
+
+.site-footer nav ul li a:link,
+.site-footer nav ul li a:visited {
+    color: gray;
+}
+
+@media (max-width: 700px) {
+    .top-menu nav {
+        display: none;
+    }
+}
