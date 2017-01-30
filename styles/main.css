@@ -44,6 +44,7 @@ li {
     position: fixed;
     top: 0;
     height: 66px;
+    border-bottom: solid 2px #BEBAB4;
 }
 
 .logo {
@@ -117,14 +118,13 @@ padding-right: 1.5rem;
     font-size: 2rem;
     color: white;
     padding-top: 10rem;
-    margin-bottom: 2rem;
+    margin: 0;
 }
 
 .top-back h3 {
     font-size: 4rem;
     color: white;
-    margin-top: 0;
-    margin-bottom: 4.2rem;
+    margin: 0;
 }
 
 /*==================  why  */
@@ -132,51 +132,30 @@ padding-right: 1.5rem;
 .why {
 
     text-align: center;
-    height: 150px;
-    margin: 10% 18%;
+    height: 258px;
+    margin: 0 auto;
 }
 
 .why h3 {
     font-size: 3rem;
-    margin-bottom: 2.5rem;
+    margin-bottom: 2rem;
 }
 
 .why h2 {
     font-size: 1.2rem;
-    margin-bottom: 2.5rem;
+    margin-bottom: 1.5rem;
 }
 
 /*============ Service =================*/
 .service {
     width: 100%;
+    height: 550px;
     text-align: left;
     background-color: #1E2024;
     color: white;
-
-}
-
-.triple {
-    width: 90%;
-    margin: 0 auto;
-}
-
-.three {
-    width: 30%;
     display: inline-block;
+    padding: 5% 0 5% 10%;
     margin: 0 auto;
-}
-
-.ser-ul {
-    display: inline-block;
-    padding-bottom: 25%;
-
-}
-
-.ser-ul a {
-    display: block;
-    color: #7a7a7a;
-    font-size: 1.6rem;
-    line-height: 3rem;
 }
 
 .service h2 {
@@ -189,11 +168,43 @@ padding-right: 1.5rem;
     line-height: 1rem;
 }
 
+.three0 {
+    width: 18%;
+    display: inline-block;
+    margin-left: 50px;
+}
 
+.three1 {
+    display: inline-block;
+    width: 22%;
+    vertical-align: top;
 
-.service a:hover {
+}
+
+.ser-ul a {
+    display: block;
+    color: #7a7a7a;
+    font-size: 1.6rem;
+    line-height: 3rem;
+    padding-right: 3rem;
+}
+
+.ser-ul a:hover {
     color: #F14848;
 }
+
+.three2 {
+    display: inline-block;
+    width: 40%;
+    height: 120px;
+    vertical-align: top;
+}
+
+.ser-img figure {
+    width: 80%;
+    height: 80%;
+}
+
 
 .participation,
 .discovery,
@@ -201,10 +212,6 @@ padding-right: 1.5rem;
 .advertising,
 .customize {
     display: none;
-}
-
-.ser-img {
-
 }
 
 /*=================== rd-wt */
