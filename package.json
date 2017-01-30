@@ -1,0 +1,22 @@
+{
+  "name": "comigo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tzoock/comigo.git"
+  },
+  "author": "tzoock",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tzoock/comigo/issues"
+  },
+  "homepage": "https://github.com/tzoock/comigo#readme",
+  "dependencies": {
+    "normalize.css": "^5.0.0"
+  }
+}

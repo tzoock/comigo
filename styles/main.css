@@ -44,8 +44,14 @@ li {
     top: 0;
 }
 
-.top-menu > a {
+ #logo {
+     height: 26px;
+     width: 140px;
     background-image: url("comigo/logo/comigo-logo-black.png");
+    background-repeat: no-repeat;
+background-position: left;
+     background-size: cover;
+
 }
 
 .top-nav {
