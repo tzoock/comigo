@@ -2,7 +2,6 @@
 
 html {
     font-size: 1em;
-    line-height: 1.5em;
     font-family: 'Source Sans Pro', sans-serif;
     color: #3D3D3D;
     box-sizing: border-box;
@@ -40,36 +39,46 @@ li {
 
 .top-menu {
     width: 100%;
-    height: 65px;
     background-color: white;
     display: inline-block;
     position: fixed;
     top: 0;
-    float: left;
+    height: 66px;
 }
 
-#logo {
-    height: 26px;
-    width: 140px;
+.logo {
     display: inline-block;
-    background-repeat: no-repeat;
-    background-position: center center;
-    background-image: url("comigo/logo/comigo-logo-black.png");
-    background-size: cover;
-    margin-left: 20px;
+    line-height: 66px;
+
+}
+
+.logo img {
+    vertical-align: middle;
+    padding-left: 30px;
 }
 
 .top-nav {
-    margin-left: 50%;
-    text-align: center;
+    float: right;
+}
+
+.top-menu ul {
+    margin: 0;
+}
+
+.top-nav li {
     display: inline-block;
 }
 
-.top-menu .top-nav li {
-    float: left;
+.top-nav a {
     display: inline-block;
-    /*text-align: left;*/
-    margin-left: 3px;
+    line-height: 66px;
+    text-align: center;
+    vertical-align: middle;
+padding-right: 1.5rem;
+}
+
+.ins-nav {
+    display: none;
 }
 
 .ins-nav a:link,
@@ -101,7 +110,7 @@ li {
     background-position: center;
     background-image: url(comigo/other/homepage-featured-new-1920x745.jpg);
     text-align: center;
-    margin-top: 70px;
+    margin-top: 66px;
 }
 
 .top-back h1 {
@@ -123,7 +132,7 @@ li {
 .why {
 
     text-align: center;
-    /*height: 300px;*/
+    height: 150px;
     margin: 10% 18%;
 }
 
@@ -140,38 +149,47 @@ li {
 /*============ Service =================*/
 .service {
     width: 100%;
+    text-align: left;
     background-color: #1E2024;
     color: white;
-    font-size: 1.2rem;
-    display: inline-block;
+    
 }
 
-.qurtr {
-    width: 33%;
+.triple {
+    width: 90%;
+    margin: 0 auto;
+}
+
+.three {
+    width: 30%;
     display: inline-block;
+    margin: 0 auto;
 }
 
 .ser-ul {
-display: inline-block;
-    height: auto;
+    display: inline-block;
+    padding-bottom: 25%;
+
+}
+
+.ser-ul a {
+    display: block;
+    color: #7a7a7a;
+    font-size: 1.6rem;
+    line-height: 3rem;
 }
 
 .service h2 {
     font-size: 2.1rem;
     line-height: 2.5rem;
-    padding: 10% 0 0 25%;
 }
 
 .service h5 {
     font-size: 1.2rem;
     line-height: 1rem;
-    padding: 0 0 25% 25%;
 }
 
-.service a {
-    color: #7a7a7a;
-    font-size: 1.6rem;
-}
+
 
 .service a:hover {
     color: #F14848;
@@ -185,16 +203,20 @@ display: inline-block;
     display: none;
 }
 
+.ser-img {
+
+}
+
 /*=================== rd-wt */
+
+.rd-wt {
+    width: 100%;
+    display: inline-block;
+}
 
 .rd-wt h2 {
     padding-top: 50%;
-    line-height: 0;
     font-size: 2.2rem;
-}
-
-.rd-wt p {
-    margin-bottom: 30px;
 }
 
 .rd-back {
