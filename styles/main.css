@@ -1,14 +1,16 @@
 /*--------global--------------*/
 
+style {display: block;}
 
+* {box-sizing: border-box;}
 
 html,
 body {
     font-size: 1em;
-    font-family: 'Source Sans Pro', sans-serif;
+    line-height: 1.5em;    font-family: 'Source Sans Pro', sans-serif;
     color: #3D3D3D;
-    margin: 0;
-    box-sizing: border-box;
+    margin: 0 auto;
+    /*box-sizing: border-box;*/
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -39,15 +41,23 @@ li {
     background-color: white;
     display: inline-block;
     position: fixed;
-    margin: 0;
+    top: 0;
+}
+
+.top-menu > a {
+    background-image: url("comigo/logo/comigo-logo-black.png");
 }
 
 .top-nav {
     padding-left: 60%;
+    text-align: center;
+    display: block;
 }
 
 .top-menu .top-nav li {
     float: left;
+    text-align: left;
+    margin-left: 3px;
 }
 
 .ins-nav a:link,
@@ -70,63 +80,78 @@ li {
 }
 
 /* ================================ top back */
-
-.top-back h1 {
-    font-size: 2rem;
-    color: white;
-    padding-top: 10rem;
-    margin-bottom: 0;
-}
-
-.top-back h3 {
-    font-size: 3.8rem;
-    color: white;
-    margin-top: 0;
-    margin-bottom: 35px;
-}
-
 .top-back {
 
-    clear: left;
     height: 520px;
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
     background-image: url(comigo/other/homepage-featured-new-1920x745.jpg);
     text-align: center;
+    margin-top: 84px;
 }
+
+.top-back h1 {
+    font-size: 2rem;
+    color: white;
+    padding-top: 10rem;
+    margin-bottom: 2rem;
+}
+
+.top-back h3 {
+    font-size: 4rem;
+    color: white;
+    margin-top: 0;
+    margin-bottom: 4.2rem;
+}
+
+
 
 /*==================  why  */
 
 .why {
-    padding-bottom: 100px;
+
+    text-align: center;
+    /*height: 300px;*/
+    margin: 10% 18%;
 }
 
 .why h3 {
     font-size: 3rem;
-    margin-bottom: 0;
+    margin-bottom: 2.5rem;
 }
 
 .why h2 {
     font-size: 1.2rem;
-    margin-bottom: 35px;
+    margin-bottom: 2.5rem;
 }
 
-/*============ DL =================*/
+/*============ Service =================*/
+.service {
+    width: 100%;
+    background-color: #1E2024;
+    color: white;
+    font-size: 1.2rem;
+    display: inline-block;
+}
+
+.qurtr  {
+    width: 33%;
+    display: inline-block;
+}
+
 .service h2 {
     font-size: 2.1rem;
+    line-height: 2.5rem;
+    padding: 10% 0 0 25%;
 }
 
 .service h5 {
     font-size: 1.2rem;
+    line-height: 1rem;
+    padding: 0 0 25% 25% ;
 }
 
-.service {
-    background-color: #1E2024;
-    color: white;
-    font-size: 1.2rem;
-
-}
 
 .service a {
     color: #7a7a7a;
@@ -137,13 +162,13 @@ li {
     color: #F14848;
 }
 
-/*.participation,*/
-/*.discovery,*/
-/*.commerce,*/
-/*.advertising,*/
-/*.customize {*/
-/*display: none;*/
-/*}*/
+.participation,
+.discovery,
+.commerce,
+.advertising,
+.customize {
+display: none;
+}
 /*=================== rd-wt */
 
 .rd-wt h2 {
@@ -346,25 +371,25 @@ section dive  .rdd {
 /*============================ @ media  */
 
 @media (max-width: 1450px) {
-    .center-footer {
+    .center {
         max-width: 1050px;
     }
 }
 
 @media (max-width: 1200px) {
-    .center-footer {
+    .center {
         max-width: 880px;
     }
 }
 
 @media (max-width: 990px) {
-    .center-footer {
+    .center {
         max-width: 660px;
     }
 }
 
 @media (max-width: 700px) {
-    .center-footer {
+    .center {
         max-width: 440px;
     }
 }
