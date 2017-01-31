@@ -5,9 +5,7 @@ html {
     font-family: 'Source Sans Pro', sans-serif;
     color: #3D3D3D;
     box-sizing: border-box;
-    width: 100vw;
-    height: 100vh;
-    /*margin: 0 auto;*/
+    margin: 0 auto;
 }
 
 *,
@@ -40,7 +38,7 @@ li {
 /*-------------nav header------------------*/
 
 .top-menu {
-    width: 100vw;
+    width: 100%;
     background-color: white;
     display: inline-block;
     position: fixed;
@@ -108,20 +106,19 @@ padding-right: 1.5rem;
 
 .top-back {
 
-    height: 80vh;
-    width: 99vw;
-    background-size: 100vw;
+    height: 38.8vw;
+    background-size: cover;
     background-repeat: no-repeat;
     background-position: top center;
     background-image: url(comigo/other/homepage-featured-new-1920x745.jpg);
     text-align: center;
     margin-top: 66px;
+    padding-top: 12vw;
 }
 
 .top-back h1 {
     font-size: 3vw;
     color: white;
-    padding-top: 12vh;
     margin: 0;
 }
 
@@ -222,7 +219,6 @@ padding-right: 1.5rem;
 
 .rd-wt {
     display: inline-block;
-    width: 100vw;
 }
 
 .rd-wt h2 {
@@ -256,7 +252,7 @@ padding-right: 1.5rem;
 .rd-btn,
 .wt-btn {
     display: inline-block;
-    font-size: 2vmax;
+    font-size: 1vw;
 }
 
 .rd-btn:link,
@@ -271,7 +267,7 @@ padding-right: 1.5rem;
 
 .rd-btn:hover,
 .rd-btn:active {
-    font-size: 4vw;
+    font-size: 1.2vw;
 }
 
 .wt-btn:link,
@@ -286,7 +282,7 @@ padding-right: 1.5rem;
 
 .wt-btn:hover,
 .wt-btn:active {
-    font-size: 4vw;
+    font-size: 1.2vw;
 }
 
 /* ============================== tv */
