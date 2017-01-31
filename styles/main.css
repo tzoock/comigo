@@ -5,6 +5,8 @@ html {
     font-family: 'Source Sans Pro', sans-serif;
     color: #3D3D3D;
     box-sizing: border-box;
+    width: 100vw;
+    height: 100vh;
     /*margin: 0 auto;*/
 }
 
@@ -38,7 +40,7 @@ li {
 /*-------------nav header------------------*/
 
 .top-menu {
-    width: 100%;
+    width: 100vw;
     background-color: white;
     display: inline-block;
     position: fixed;
@@ -68,6 +70,7 @@ li {
 
 .top-nav li {
     display: inline-block;
+    font-size: 1vw;
 }
 
 .top-nav a {
@@ -105,24 +108,25 @@ padding-right: 1.5rem;
 
 .top-back {
 
-    height: 520px;
-    background-size: cover;
+    height: 80vh;
+    width: 99vw;
+    background-size: 100vw;
     background-repeat: no-repeat;
-    background-position: center;
+    background-position: top center;
     background-image: url(comigo/other/homepage-featured-new-1920x745.jpg);
     text-align: center;
     margin-top: 66px;
 }
 
 .top-back h1 {
-    font-size: 2rem;
+    font-size: 3vw;
     color: white;
-    padding-top: 10rem;
+    padding-top: 12vh;
     margin: 0;
 }
 
 .top-back h3 {
-    font-size: 4rem;
+    font-size: 5vw;
     color: white;
     margin: 0;
 }
@@ -201,8 +205,8 @@ padding-right: 1.5rem;
 }
 
 .ser-img figure {
-    width: 80%;
-    height: 80%;
+    width: 80em;
+    height: 80em;
 }
 
 
@@ -217,19 +221,19 @@ padding-right: 1.5rem;
 /*=================== rd-wt */
 
 .rd-wt {
-    width: 100%;
     display: inline-block;
+    width: 100vw;
 }
 
 .rd-wt h2 {
-    padding-top: 50%;
+    /*padding-top: 50%;*/
     font-size: 2.2rem;
 }
 
 .rd-back {
     color: white;
     height: 35rem;
-    width: 50%;
+    width: 50vw;
     background-image: url("comigo/other/ic_EI_cloud_2_home_page.png"), url("comigo/other/home-tv-service-bg1.png");
     background-repeat: no-repeat;
     background-position: 50% 20%, center;
@@ -239,7 +243,7 @@ padding-right: 1.5rem;
 
 .wt-back {
     height: 35rem;
-    width: 50%;
+    width: 50vw;
     background-image: url("comigo/other/ic-stb-screens.png"), url("comigo/other/home-tv-service-bg2.png");
     background-repeat: no-repeat;
     background-position: 50% 20%, center;
@@ -252,6 +256,7 @@ padding-right: 1.5rem;
 .rd-btn,
 .wt-btn {
     display: inline-block;
+    font-size: 2vmax;
 }
 
 .rd-btn:link,
@@ -259,14 +264,14 @@ padding-right: 1.5rem;
     color: #FFFFFF;
     background-color: #F14848;
     border-radius: 20px;
-    padding: 13px 26px;
-    margin: 20px 30px;
+    padding: 1.3vw 2.6vw;
+    margin: 2vw 3vw;
 
 }
 
 .rd-btn:hover,
 .rd-btn:active {
-    font-size: 18px;
+    font-size: 4vw;
 }
 
 .wt-btn:link,
@@ -274,19 +279,20 @@ padding-right: 1.5rem;
     color: #F14848;
     background-color: white;
     border-radius: 20px;
-    padding: 13px 26px;
-    margin: 20px 30px;
+    padding: 1.3vw 2.6vw;
+    margin: 2vw 3vw;
+
 }
 
 .wt-btn:hover,
 .wt-btn:active {
-    font-size: 18px;
+    font-size: 4vw;
 }
 
 /* ============================== tv */
 
 .tv {
-    height: 600px;
+    height: 50vw;
     background-image: url("comigo/other/screen_whos_on.jpg");
     background-repeat: no-repeat;
     background-position: 100% 50%;
