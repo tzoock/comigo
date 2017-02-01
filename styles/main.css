@@ -304,37 +304,33 @@ a span {
 /*=================== rd-wt */
 
 .rd-wt {
-    display: inline-block;
     width: 100%;
-
 }
 
 .rd-wt h2 {
 
-    font-size: 2.2rem;
+    font-size: 2.5rem;
 }
 
 .rd-back {
     color: white;
-    height: 50vw;
+    height: 40vw;
     width: 50%;
     background-image: url("comigo/other/ic_EI_cloud_2_home_page.png"), url("comigo/other/home-tv-service-bg1.png");
     background-repeat: no-repeat;
     background-position: 50% 20%, center;
     background-size: 45%, cover;
-    display: inline-block;
     float: left;
     padding: 22vw 10vw;
 }
 
 .wt-back {
-    height: 50vw;
+    height: 40vw;
     width: 50%;
     background-image: url("comigo/other/ic-stb-screens.png"), url("comigo/other/home-tv-service-bg2.png");
     background-repeat: no-repeat;
     background-position: 50% 20%, center;
     background-size: 45%, cover;
-    display: inline-block;
     float: left;
     padding: 22vw 10vw;
 }
@@ -344,7 +340,7 @@ a span {
 .rd-btn,
 .wt-btn {
     display: inline-block;
-    font-size: 1rem;
+    font-size: .9rem;
 }
 
 .rd-btn:link,
@@ -359,7 +355,7 @@ a span {
 
 .rd-btn:hover,
 .rd-btn:active {
-    font-size: 1.3rem;
+    font-size: 1.1rem;
 }
 
 .wt-btn:link,
@@ -374,12 +370,13 @@ a span {
 
 .wt-btn:hover,
 .wt-btn:active {
-    font-size: 1.3rem;
+    font-size: 1.1rem;
 }
 
 /* ============================== tv */
 
 .tv {
+    clear: both;
     height: 50vw;
     background-image: url("comigo/other/screen_whos_on.jpg");
     background-repeat: no-repeat;
@@ -398,9 +395,7 @@ a span {
 }
 /*============================ mo links */
 
-.momo * {
-    outline: solid 1px green;
-}
+
 
 .momo {
   width: 100%;
@@ -409,33 +404,46 @@ a span {
 
 .gry {
     width: 40%;
-    height: 15vw;
+    height: 16.5vw;
     float: left;
     font-size: 4vw;
+    background-color: #F9F9F9;
 
 }
 .grrr {
     width: 20%;
-    height: 15vw;
-    background-color: red;
-    color: white;
+    height: 16.5vw;
+    background-color: #F14848;
     float: left;
+}
+.grrr a {
+    color: white;
+    background-color: #F14848;
+
 }
 .gryish {
     width: 20%;
-    height: 15vw;
+    height: 16.5vw;
     float: left;
+    background-color: #EFEFEF;
 }
 .gryer {
     width: 40%;
-    height: 15vw;
+    height: 16.5vw;
     float: left;
+    background-color: #E8E8E8;
 }
 .biggry {
     width: 40%;
-    height: 30vw;
+    height: 33vw;
     float: right;
-    background-color: #3D3D3D;
+    background-color: #EFEFEF;
+}
+
+.biggry img {
+
+    width: 90%;
+    height: 80%;
 }
 
 
@@ -491,19 +499,6 @@ a span {
     background-color: #1E2024;
 }
 
-.gryish {
-    background-color: #EFEFEF;
-
-}
-
-.gryer {
-    background-color: #EFEFEF;
-
-}
-
-.gry {
-    background-color: #F9F9F9;
-}
 
 aside > div {
     background-color: #F14848;
