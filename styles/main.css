@@ -44,40 +44,41 @@ li {
     position: fixed;
     top: 0;
     left: 0;
-    height: 66px;
-    display: inline-block;
+    /*height: 66px;*/
+    padding-right: 25px;
 }
 
 .logo {
     display: inline-block;
-    line-height: 66px;
+    /*line-height: 66px;*/
     vertical-align: middle;
     padding-left: 1.7rem;
-    padding-top: 0.4rem;
+    padding-top: 0.8rem;
 }
 
 
 .top-nav {
     float: right;
     background-color: white;
-    display: inline-block;
 }
 
 .top-menu ul {
     margin: 0;
-    /*width: 100%;*/
-    padding: 0;
 }
 
 .top-nav li {
-    line-height: 66px;
+    padding: 0 10px;
+    float: left;
     text-align: center;
-    padding-right: 1.5rem;
-    padding-left: 1rem;
-    display: inline-block;
-    font-size: 1.3vw;
-    margin: 0;
     background-color: white;
+    padding: 0 10px;
+
+}
+
+.top-nav > ul li a {
+    line-height: 66px;
+    font-size: 1.3vw;
+    display: block;
 }
 
 a span {
@@ -140,7 +141,7 @@ a span {
 }
 
 .ins-nav > li {
-    width: 33%;
+    width: 33.333333%;
     margin: 0;
     padding: 0;
     display: inline-block;
@@ -170,7 +171,7 @@ a span {
 
 .mnu1 li,
 .mnu2 li {
-    width: 49%;
+    width: 50%;
 }
 
 .top-menu li ul a {
@@ -395,6 +396,52 @@ a span {
     padding-top: 5rem;
 
 }
+/*============================ mo links */
+
+.momo * {
+    outline: solid 1px green;
+}
+
+.momo {
+  width: 100%;
+    margin: 0;
+}
+
+.gry {
+    width: 40%;
+    height: 15vw;
+    float: left;
+    font-size: 4vw;
+
+}
+.grrr {
+    width: 20%;
+    height: 15vw;
+    background-color: red;
+    color: white;
+    float: left;
+}
+.gryish {
+    width: 20%;
+    height: 15vw;
+    float: left;
+}
+.gryer {
+    width: 40%;
+    height: 15vw;
+    float: left;
+}
+.biggry {
+    width: 40%;
+    height: 30vw;
+    float: right;
+    background-color: #3D3D3D;
+}
+
+
+#clear {
+    clear: both;
+}
 
 /*===========footer================*/
 
@@ -451,8 +498,7 @@ a span {
 
 .gryer {
     background-color: #EFEFEF;
-    width: 450px;
-    height: 320px;
+
 }
 
 .gry {
@@ -463,76 +509,76 @@ aside > div {
     background-color: #F14848;
 }
 
-/*===========blog================*/
+/*!*===========blog================*!*/
 
-.blogs {
-    display: inline-block;
-    width: 100%;
-    margin: 0;
-}
+/*.blogs {*/
+    /*display: inline-block;*/
+    /*width: 100%;*/
+    /*margin: 0;*/
+/*}*/
 
-.lblog {
-    margin: 0;
-    padding: 0;
-}
+/*.lblog {*/
+    /*margin: 0;*/
+    /*padding: 0;*/
+/*}*/
 
-.our-b h3 {
-    font-size: 3.5rem;
-    margin: 0;
-}
+/*.our-b h3 {*/
+    /*font-size: 3.5rem;*/
+    /*margin: 0;*/
+/*}*/
 
-.blogs a {
-    color: white;
-    font-size: 1.2rem;
-}
+/*.blogs a {*/
+    /*color: white;*/
+    /*font-size: 1.2rem;*/
+/*}*/
 
-.our-b {
-    background-color: #F14848;
-}
+/*.our-b {*/
+    /*background-color: #F14848;*/
+/*}*/
 
-.lblog li {
-    width: 16.6%;
-    /*height: 100%;*/
-    float: left;
-    position: relative;
-}
+/*.lblog li {*/
+    /*width: 16.6%;*/
+    /*!*height: 100%;*!*/
+    /*float: left;*/
+    /*position: relative;*/
+/*}*/
 
-.lblog li a {
-    position: absolute;
-    bottom: 10px;
-    left: 15px;
-    /*padding-top: 100%;*/
-}
+/*.lblog li a {*/
+    /*position: absolute;*/
+    /*bottom: 10px;*/
+    /*left: 15px;*/
+    /*!*padding-top: 100%;*!*/
+/*}*/
 
-.exp {
+/*.exp {*/
 
-    background: url("comigo/blog/ibc_post_EI-750x508.png") no-repeat center;
-}
+    /*background: url("comigo/blog/ibc_post_EI-750x508.png") no-repeat center;*/
+/*}*/
 
-.learn {
+/*.learn {*/
 
-    background: url("comigo/blog/IMG_9294-750x563.jpeg") no-repeat center;
-}
+    /*background: url("comigo/blog/IMG_9294-750x563.jpeg") no-repeat center;*/
+/*}*/
 
-.data {
+/*.data {*/
 
-    background: url("comigo/blog/Image-Blog-Yoav_356121362-copy-750x563.jpg") no-repeat center;
-}
+    /*background: url("comigo/blog/Image-Blog-Yoav_356121362-copy-750x563.jpg") no-repeat center;*/
+/*}*/
 
-.inf {
+/*.inf {*/
 
-    background: url("comigo/blog/post_tv_connect-750x508.jpeg") no-repeat center;
-}
+    /*background: url("comigo/blog/post_tv_connect-750x508.jpeg") no-repeat center;*/
+/*}*/
 
-.crapy {
+/*.crapy {*/
 
-    background: url("comigo/blog/post_quality-750x508.jpeg") no-repeat center;
-}
+    /*background: url("comigo/blog/post_quality-750x508.jpeg") no-repeat center;*/
+/*}*/
 
-section dive .rdd {
-    background-color: #F14848;
-    color: white;
-}
+/*section dive .rdd {*/
+    /*background-color: #F14848;*/
+    /*color: white;*/
+/*}*/
 
 /*============================ @ media  */
 
