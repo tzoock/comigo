@@ -71,13 +71,12 @@ li {
     float: left;
     text-align: center;
     background-color: white;
-    padding: 0 10px;
 
 }
 
 .top-nav > ul li a {
     line-height: 66px;
-    font-size: 1.3vw;
+    font-size: 1.3rem;
     display: block;
 }
 
@@ -98,7 +97,7 @@ a span {
 .ins-nav li a {
     width: 100%;
     height: 155px;
-    font-size: 2vw;
+    font-size: 6rem;
     vertical-align: middle;
 }
 
@@ -231,13 +230,13 @@ a span {
 /*============ Service =================*/
 .service {
     width: 100%;
-    /*height: 80vw;*/
+    height: 40vw;
     text-align: left;
     background-color: #1E2024;
     color: white;
     display: inline-block;
-    /*padding: 5% 0 5% 10%;*/
-    /*margin: 0 auto;*/
+    padding: 5% 0 5% 10%;
+
 
 }
 
@@ -251,20 +250,39 @@ a span {
     line-height: 1rem;
 }
 
-.three0 {
-    width: 18%;
-    display: inline-block;
-    margin-left: 50px;
+.lser {
+    float: left;
+    width: 20%;
+    height: 40vw;
 }
 
-.three1 {
-    display: inline-block;
-    width: 22%;
-    vertical-align: top;
+.rser {
+    float: left;
+    width: 60%;
+    height: 40vw;
+    padding-left: 10%;
 
 }
 
-.ser-ul a {
+.rser dl {
+    position: relative;
+    display: block;
+}
+
+.service dt{
+   display: block;
+    width: 30%;
+}
+
+.service dd{
+    display: none;
+    width: 50%;
+    height: 50%;
+    text-align: center;
+}
+
+
+.service a {
     display: block;
     color: #7a7a7a;
     font-size: 1.6rem;
@@ -272,39 +290,24 @@ a span {
     padding-right: 3rem;
 }
 
-.ser-ul a:hover {
+.service a:hover {
     color: #F14848;
 }
 
-.three2 {
-    display: inline-block;
-    width: 40%;
-    height: 120px;
-    vertical-align: top;
-}
 
-.ser-img {
-    width: 30vw;
-    height: 300px;
-    display: inline-block;
-}
+.service dt:hover + dd {
+    display: block;
+    position: absolute;
+    right: 20%;
+    top: 0;
 
-.ser-img img {
-    height: 300px;
-}
 
-.participation,
-.discovery,
-.commerce,
-.advertising,
-.customize {
-    display: none;
 }
-
 /*=================== rd-wt */
 
 .rd-wt {
     width: 100%;
+
 }
 
 .rd-wt h2 {
@@ -314,7 +317,7 @@ a span {
 
 .rd-back {
     color: white;
-    height: 40vw;
+    height: 42vw;
     width: 50%;
     background-image: url("comigo/other/ic_EI_cloud_2_home_page.png"), url("comigo/other/home-tv-service-bg1.png");
     background-repeat: no-repeat;
@@ -325,7 +328,7 @@ a span {
 }
 
 .wt-back {
-    height: 40vw;
+    height: 42vw;
     width: 50%;
     background-image: url("comigo/other/ic-stb-screens.png"), url("comigo/other/home-tv-service-bg2.png");
     background-repeat: no-repeat;
@@ -404,38 +407,51 @@ a span {
 
 .gry {
     width: 40%;
-    height: 16.5vw;
+    height: 20vw;
     float: left;
-    font-size: 4vw;
+    font-size: 4rem;
     background-color: #F9F9F9;
 
 }
-.grrr {
+.grrred {
     width: 20%;
-    height: 16.5vw;
+    height: 20vw;
     background-color: #F14848;
     float: left;
 }
-.grrr a {
+.grrred a {
+    display: block;
+    width: 100%;
+    height: 100%;
     color: white;
     background-color: #F14848;
 
 }
 .gryish {
     width: 20%;
-    height: 16.5vw;
+    height: 20vw;
     float: left;
     background-color: #EFEFEF;
 }
 .gryer {
     width: 40%;
-    height: 16.5vw;
+    height: 20vw;
     float: left;
     background-color: #E8E8E8;
+
+}
+
+.gryer a {
+    width: 100%;
+    height: 100%;
+    display: block;
+    font-size: 2rem;
+    text-align: left;
+    padding: 15px;
 }
 .biggry {
     width: 40%;
-    height: 33vw;
+    height: 40vw;
     float: right;
     background-color: #EFEFEF;
 }
@@ -445,58 +461,6 @@ a span {
     width: 90%;
     height: 80%;
 }
-
-
-
-/*===========footer================*/
-
-.center-footer {
-
-    width: 90%;
-    max-width: 1230px;
-    margin: 0 auto;
-}
-
-.site-footer {
-    background-color: #1E2024;
-    clear: both;
-}
-
-.fotfot {
-
-    background-color: #151515;
-}
-
-.site-footer nav ul li a:hover {
-    color: red;
-}
-
-.site-footer a:link {
-    color: white;
-}
-
-.site-footer > nav > ul > li > a:link,
-.site-footer > nav > ul > li > a:visited,
-.site-footer > nav > ul > li > a:active,
-.site-footer > nav > ul > li > a:focus,
-.site-footer > nav > ul > li > a:hover {
-    color: white;
-}
-
-.site-footer .fotfot a:link {
-    color: grey;
-}
-
-.site-footer .fotfot a:hover {
-    color: white;
-}
-
-/*==============backgrounds===============*/
-
-.site-footer {
-    background-color: #1E2024;
-}
-
 
 /*!*===========blog================*!*/
 
@@ -524,8 +488,21 @@ a span {
 }
 
 .blogs a {
+    display: block;
     color: white;
     font-size: 1.2rem;
+    position: relative;
+    width: 100%;
+    height: 100%;
+    vertical-align: baseline;
+
+}
+
+.blogs span {
+    position: absolute;
+    bottom: 10px;
+    left: 20px;
+    text-align: left;
 
 }
 
@@ -535,7 +512,7 @@ a span {
 
 
 .lblog li a {
-/*padding-top: 450px;*/
+    /*padding-top: 450px;*/
 
 }
 
@@ -566,6 +543,69 @@ a span {
 
 
 
+/*===========footer================*/
+
+.center-footer {
+
+    width: 90%;
+    max-width: 1230px;
+    margin: 0 auto;
+    clear: both;
+}
+
+.site-footer {
+    background-color: #1E2024;
+    clear: both;
+}
+
+
+
+
+.site-footer a:visited {
+    color: white;
+}
+
+
+
+.site-footer a:hover {
+    color: red;
+}
+
+
+.fotfot {
+    background-color: #151515;
+    width: 100%;
+    height: 40px;
+    vertical-align: middle;
+}
+
+.fotfot .center-footer div {
+    float: left;
+    width: 40%;
+}
+
+.fotfot .center-footer h6 {
+    float: left;
+    margin: 0;
+    padding-left: 60px;
+}
+
+.fotfot .center-footer ul {
+    float: left;
+    margin: 0;
+}
+.soc-li li {
+    display: inline-block;
+}
+
+
+.site-footer .fotfot a:link {
+    color: grey;
+}
+
+.site-footer .fotfot a:hover {
+    color: white;
+}
 
 /*============================ @ media  */
 
@@ -593,13 +633,30 @@ a span {
     }
 }
 
-.site-footer nav ul li a:link,
-.site-footer nav ul li a:visited {
-    color: gray;
-}
 
 @media (max-width: 700px) {
     .top-menu nav {
         display: none;
     }
+}
+
+/*============= helpers */
+
+/**
+ * For modern browsers
+ * 1. The space content is one way to avoid an Opera bug when the
+ *    contenteditable attribute is included anywhere else in the document.
+ *    Otherwise it causes space to appear at the top and bottom of elements
+ *    that are clearfixed.
+ * 2. The use of `table` rather than `block` is only necessary if using
+ *    `:before` to contain the top-margins of child elements.
+ */
+.clearfix:before,
+.clearfix:after {
+    content: " "; /* 1 */
+    display: table; /* 2 */
+}
+
+.clearfix:after {
+    clear: both;
 }
