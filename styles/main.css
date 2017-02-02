@@ -42,6 +42,7 @@ li {
     width: 100%;
     background-color: white;
     position: fixed;
+    z-index: 100;
     top: 0;
     left: 0;
     /*height: 66px;*/
@@ -55,7 +56,6 @@ li {
     padding-left: 1.7rem;
     padding-top: 0.8rem;
 }
-
 
 .top-nav {
     float: right;
@@ -91,7 +91,7 @@ a span {
     background-color: red;
     color: white;
     padding: 0;
-    margin: 0 ;
+    margin: 0;
 }
 
 .ins-nav li a {
@@ -237,7 +237,6 @@ a span {
     display: inline-block;
     padding: 5% 0 5% 10%;
 
-
 }
 
 .service h2 {
@@ -269,18 +268,17 @@ a span {
     display: block;
 }
 
-.service dt{
-   display: block;
+.service dt {
+    display: block;
     width: 30%;
 }
 
-.service dd{
+.service dd {
     display: none;
     width: 50%;
     height: 50%;
     text-align: center;
 }
-
 
 .service a {
     display: block;
@@ -294,15 +292,13 @@ a span {
     color: #F14848;
 }
 
-
 .service dt:hover + dd {
     display: block;
     position: absolute;
     right: 20%;
     top: 0;
-
-
 }
+
 /*=================== rd-wt */
 
 .rd-wt {
@@ -396,12 +392,11 @@ a span {
     padding-top: 5rem;
 
 }
+
 /*============================ mo links */
 
-
-
 .momo {
-  width: 100%;
+    width: 100%;
     margin: 0;
 }
 
@@ -413,12 +408,14 @@ a span {
     background-color: #F9F9F9;
 
 }
+
 .grrred {
     width: 20%;
     height: 20vw;
     background-color: #F14848;
     float: left;
 }
+
 .grrred a {
     display: block;
     width: 100%;
@@ -427,12 +424,14 @@ a span {
     background-color: #F14848;
 
 }
+
 .gryish {
     width: 20%;
     height: 20vw;
     float: left;
     background-color: #EFEFEF;
 }
+
 .gryer {
     width: 40%;
     height: 20vw;
@@ -449,6 +448,7 @@ a span {
     text-align: left;
     padding: 15px;
 }
+
 .biggry {
     width: 40%;
     height: 40vw;
@@ -468,6 +468,7 @@ a span {
     clear: both;
     margin: 0;
 }
+
 .lblog {
     width: 100%;
     padding: 0;
@@ -510,7 +511,6 @@ a span {
     background-color: #F14848;
 }
 
-
 .lblog li a {
     /*padding-top: 450px;*/
 
@@ -541,8 +541,6 @@ a span {
     background: url("comigo/blog/post_quality-750x508.jpeg") no-repeat center;
 }
 
-
-
 /*===========footer================*/
 
 .center-footer {
@@ -558,19 +556,13 @@ a span {
     clear: both;
 }
 
-
-
-
 .site-footer a:visited {
     color: white;
 }
 
-
-
 .site-footer a:hover {
     color: red;
 }
-
 
 .fotfot {
     background-color: #151515;
@@ -594,10 +586,10 @@ a span {
     float: left;
     margin: 0;
 }
+
 .soc-li li {
     display: inline-block;
 }
-
 
 .site-footer .fotfot a:link {
     color: grey;
@@ -632,7 +624,6 @@ a span {
         max-width: 440px;
     }
 }
-
 
 @media (max-width: 700px) {
     .top-menu nav {
