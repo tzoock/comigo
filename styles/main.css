@@ -1,9 +1,9 @@
 /*--------global--------------*/
 
 body {
-    font-size: 1rem;
+    font-size: 100%;
     font-family: 'Source Sans Pro', sans-serif;
-    color: #7a7a7a;
+    /*color: #7a7a7a;*/
     box-sizing: border-box;
     margin: 0 auto;
     padding-top: 66px;
@@ -46,15 +46,15 @@ li {
     top: 0;
     left: 0;
     /*height: 66px;*/
-    padding-right: 25px;
+    padding-right: 30px;
 }
 
 .logo {
     display: inline-block;
     /*line-height: 66px;*/
-    vertical-align: middle;
+    /*vertical-align: middle;*/
     padding-left: 1.7rem;
-    padding-top: 0.8rem;
+    padding-top: 1.2rem;
 }
 
 .top-nav {
@@ -67,16 +67,18 @@ li {
 }
 
 .top-nav li {
-    padding: 0 10px;
     float: left;
     text-align: center;
     background-color: white;
+}
 
+.top-nav a {
+    padding: 0 10px;
 }
 
 .top-nav > ul li a {
     line-height: 66px;
-    font-size: 1.3rem;
+    /*font-size: 1rem;*/
     display: block;
 }
 
@@ -94,10 +96,10 @@ a span {
     margin: 0;
 }
 
-.ins-nav li a {
+.ins-nav a {
     width: 100%;
     height: 155px;
-    font-size: 6rem;
+    font-size: 2rem;
     vertical-align: middle;
 }
 
@@ -171,6 +173,7 @@ a span {
 .mnu1 li,
 .mnu2 li {
     width: 50%;
+    padding: 0;
 }
 
 .top-menu li ul a {
@@ -213,11 +216,11 @@ a span {
 .why {
 
     text-align: center;
-    padding: 5vw 0 5vw 0;
+    padding: 4vw 0 4vw 0;
 }
 
 .why h3 {
-    font-size: 3rem;
+    font-size: 3.2rem;
     margin-bottom: 1.2rem;
 }
 
@@ -342,6 +345,10 @@ a span {
 .wt-btn {
     display: inline-block;
     font-size: .9rem;
+    text-align: center;
+    vertical-align: middle;
+    padding: 1vw 2.4vw;
+    margin: 2vw 3vw;
 }
 
 .rd-btn:link,
@@ -349,9 +356,6 @@ a span {
     color: #FFFFFF;
     background-color: #F14848;
     border-radius: 26px;
-    padding: 1.3vw 2.6vw;
-    margin: 2vw 3vw;
-
 }
 
 .rd-btn:hover,
@@ -364,9 +368,6 @@ a span {
     color: #F14848;
     background-color: white;
     border-radius: 26px;
-    padding: 1.3vw 2.6vw;
-    margin: 2vw 3vw;
-
 }
 
 .wt-btn:hover,
