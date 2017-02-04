@@ -36,6 +36,8 @@ li {
     list-style: none;
 }
 
+
+
 /*-------------nav header------------------*/
 
 .top-menu {
@@ -314,6 +316,7 @@ a span {
 .rd-wt h2 {
 
     font-size: 2.5rem;
+    margin-bottom: 0;
 }
 
 .rd-back {
@@ -321,22 +324,22 @@ a span {
     height: 42vw;
     width: 50%;
     background-image: url("comigo/other/ic_EI_cloud_2_home_page.png"), url("comigo/other/home-tv-service-bg1.png");
-    background-repeat: no-repeat;
+    background-repeat: no-repeat, no-repeat;
     background-position: 50% 20%, center;
     background-size: 45%, cover;
     float: left;
-    padding: 22vw 10vw;
+    padding: 20vw 0 0 15px;
 }
 
 .wt-back {
     height: 42vw;
     width: 50%;
     background-image: url("comigo/other/ic-stb-screens.png"), url("comigo/other/home-tv-service-bg2.png");
-    background-repeat: no-repeat;
+    background-repeat: no-repeat, no-repeat;
     background-position: 50% 20%, center;
     background-size: 45%, cover;
     float: left;
-    padding: 22vw 10vw;
+    padding: 20vw 0 0 15px;
 }
 
 /*=============btns=================*/
@@ -349,43 +352,42 @@ a span {
     vertical-align: middle;
     padding: 1vw 2.4vw;
     margin: 2vw 3vw;
+    border-radius: 26px;
 }
 
 .rd-btn:link,
 .rd-btn:visited {
     color: #FFFFFF;
     background-color: #F14848;
-    border-radius: 26px;
 }
 
 .rd-btn:hover,
 .rd-btn:active {
-    font-size: 1.1rem;
+    font-size: 1rem;
 }
 
 .wt-btn:link,
 .wt-btn:visited {
     color: #F14848;
     background-color: white;
-    border-radius: 26px;
+
 }
 
 .wt-btn:hover,
 .wt-btn:active {
-    font-size: 1.1rem;
+    font-size: 1rem;
 }
 
 /* ============================== tv */
 
 .tv {
-    clear: both;
     height: 50vw;
     background-image: url("comigo/other/screen_whos_on.jpg");
     background-repeat: no-repeat;
-    background-position: 100% 50%;
+    background-position: 115% ;
     background-size: 60%;
     text-align: left;
-    padding-left: 5rem;
+    padding-left: 10rem;
 }
 
 .tv h3 {
@@ -547,7 +549,6 @@ a span {
 /*===========footer================*/
 
 .center-footer {
-
     width: 90%;
     max-width: 1230px;
     margin: 0 auto;
@@ -556,10 +557,15 @@ a span {
 
 .site-footer {
     background-color: #1E2024;
-    clear: both;
 }
 
-.site-footer a:visited {
+.foot-nav > ul > li {
+    display: inline-block;
+    line-height: 1.8rem;
+    vertical-align: top;
+}
+
+.site-footer .center-footer .wtxt {
     color: white;
 }
 
