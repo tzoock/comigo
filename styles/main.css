@@ -196,7 +196,7 @@ a span {
     background-size: cover;
     background-repeat: no-repeat;
     background-position: top center;
-    background-image: url(comigo/other/homepage-featured-new-1920x745.jpg);
+    background-image: url(../other/homepage-featured-new-1920x745.jpg);
     text-align: center;
     padding: 12vw 0 5vw 0;
 }
@@ -323,7 +323,7 @@ a span {
     color: white;
     height: 42vw;
     width: 50%;
-    background-image: url("comigo/other/ic_EI_cloud_2_home_page.png"), url("comigo/other/home-tv-service-bg1.png");
+    background-image: url("../other/ic_EI_cloud_2_home_page.png"), url("../other/home-tv-service-bg1.png");
     background-repeat: no-repeat, no-repeat;
     background-position: 50% 20%, center;
     background-size: 45%, cover;
@@ -334,7 +334,7 @@ a span {
 .wt-back {
     height: 42vw;
     width: 50%;
-    background-image: url("comigo/other/ic-stb-screens.png"), url("comigo/other/home-tv-service-bg2.png");
+    background-image: url("../other/ic-stb-screens.png"), url("../other/home-tv-service-bg2.png");
     background-repeat: no-repeat, no-repeat;
     background-position: 50% 20%, center;
     background-size: 45%, cover;
@@ -382,7 +382,7 @@ a span {
 
 .tv {
     height: 50vw;
-    background-image: url("comigo/other/screen_whos_on.jpg");
+    background-image: url("../other/screen_whos_on.jpg");
     background-repeat: no-repeat;
     background-position: 115% ;
     background-size: 60%;
@@ -506,44 +506,41 @@ a span {
 
 .blogs span {
     position: absolute;
-    bottom: 10px;
+    bottom: 3%;
     left: 20px;
     text-align: left;
-
 }
+
+
 
 .our-b {
     background-color: #F14848;
 }
 
-.lblog li a {
-    /*padding-top: 450px;*/
-
-}
 
 .exp {
 
-    background: url("comigo/blog/ibc_post_EI-750x508.png") no-repeat center;
+    background: url("../blog/ibc_post_EI-750x508.png") no-repeat center;
 }
 
 .learn {
 
-    background: url("comigo/blog/IMG_9294-750x563.jpeg") no-repeat center;
+    background: url("../blog/IMG_9294-750x563.jpeg") no-repeat center;
 }
 
 .data {
 
-    background: url("comigo/blog/Image-Blog-Yoav_356121362-copy-750x563.jpg") no-repeat center;
+    background: url("../blog/Image-Blog-Yoav_356121362-copy-750x563.jpg") no-repeat center;
 }
 
 .inf {
 
-    background: url("comigo/blog/post_tv_connect-750x508.jpeg") no-repeat center;
+    background: url("../blog/post_tv_connect-750x508.jpeg") no-repeat center;
 }
 
 .crapy {
 
-    background: url("comigo/blog/post_quality-750x508.jpeg") no-repeat center;
+    background: url("../blog/post_quality-750x508.jpeg") no-repeat center;
 }
 
 /*===========footer================*/
@@ -552,7 +549,7 @@ a span {
     width: 90%;
     max-width: 1230px;
     margin: 0 auto;
-    clear: both;
+
 }
 
 .site-footer {
@@ -572,39 +569,66 @@ a span {
 .site-footer a:hover {
     color: red;
 }
+/* =============== footer foot */
 
-.fotfot {
+.footer-foot {
     background-color: #151515;
     width: 100%;
-    height: 40px;
+    height: 2rem;
+    /*vertical-align: middle;*/
+    font-size: 0.8rem;
+    display: inline-block;
+}
+
+ .lsfc {
+     display: inline-block;
+    width: 60%;
+     margin: 0;
+}
+
+ .lsfc li {
+     display: inline-block;
+     width: 18%;
+ }
+
+ .lsfc a {
+     padding: 0 1.5rem;
+ }
+
+.lsfc li:not(:first-child)::before {
+    content: "|";
+}
+
+.footer-foot .center-footer h6 {
+    display: inline-block;
+    margin: 0;
+    padding-left: 60px;
     vertical-align: middle;
 }
 
-.fotfot .center-footer div {
-    float: left;
-    width: 40%;
-}
-
-.fotfot .center-footer h6 {
-    float: left;
-    margin: 0;
-    padding-left: 60px;
-}
-
-.fotfot .center-footer ul {
-    float: left;
-    margin: 0;
+.soc-li {
+    display: inline-block;
+    width: 20%;
 }
 
 .soc-li li {
     display: inline-block;
+    width: 25%;
 }
 
-.site-footer .fotfot a:link {
+.footer-foot h6 {
+    width: 20%;
+    display: inline-block;
+}
+
+.footer-foot a:link,
+.footer-foot p,
+.footer-foot h6
+{
     color: grey;
 }
 
-.site-footer .fotfot a:hover {
+.site-footer .footer-foot a:hover {
     color: white;
 }
 
