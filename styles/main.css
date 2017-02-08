@@ -46,6 +46,7 @@ li {
   left: 0;
   padding-right: 20px;
   z-index: 10;
+  box-shadow: 0 0 20px 1px rgba(21, 21, 21, 0.81);
 }
 
 .logo {
@@ -210,7 +211,7 @@ li {
 /*============ Service =================*/
 .service {
   width: 100%;
-  height: 45vw;
+  /*height: 45vw;*/
   text-align: left;
   background-color: #1E2024;
   color: white;
@@ -303,7 +304,7 @@ li {
   background-position: 50% 20%, center;
   background-size: 45%, cover;
   float: left;
-  padding: 20vw 0 0 15px;
+  padding: 10% 0 0 15px;
 }
 
 .wt-back {
@@ -314,7 +315,7 @@ li {
   background-position: 50% 20%, center;
   background-size: 45%, cover;
   float: left;
-  padding: 20vw 0 0 15px;
+  padding: 10% 0 0 15px;
 }
 
 /*=============btns=================*/
@@ -634,10 +635,15 @@ li {
 @media (max-width: 700px) {
   .top-nav {
     display: none;
+    height: 100vw;
     width: 100%;
     font-size: 1.2rem;
     line-height: 2.3rem;
     padding-left: 25px;
+    overflow: auto;
+  }
+  .top-menu {
+    padding: 0;
   }
 
   #home {
@@ -660,7 +666,13 @@ li {
     display: block;
   }
 
+.rd-back {
+  width: 100%;
+}
 
+.wt-back {
+  width: 100%;
+}
 }
 
 /*============= helpers */
