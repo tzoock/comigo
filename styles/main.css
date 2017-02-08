@@ -1,12 +1,12 @@
 /*--------global--------------*/
-
+html,
 body {
   font-size: 100%;
   font-family: 'Source Sans Pro', sans-serif;
   /*color: #7a7a7a;*/
   box-sizing: border-box;
   margin: 0 auto;
-  padding-top: 66px;
+  padding-top: 66px ;
 }
 
 *,
@@ -16,6 +16,7 @@ body {
 }
 
 h1, h2, h3, h4, h5, h6 {
+  font-size: 100%;
   font-weight: normal;
 }
 
@@ -39,11 +40,13 @@ li {
 /*-------------nav header------------------*/
 
 .top-menu {
+  box-sizing: border-box;
   width: 100%;
   background-color: white;
   position: fixed;
   top: 0;
   left: 0;
+  right: 0;
   padding-right: 20px;
   z-index: 10;
   box-shadow: 0 0 20px 1px rgba(21, 21, 21, 0.81);
@@ -97,7 +100,7 @@ li {
 
   .mnu1 {
     position: absolute;
-    top: -200px;
+    top: -300px;
     line-height: 155px;
     left: 0;
     right: 0;
@@ -110,7 +113,7 @@ li {
   }
 
   .mnu0 li:hover .mnu1 {
-    transform: translateY(266px);
+    transform: translateY(366px);
     transition-duration: 600ms;
   }
 
@@ -124,7 +127,7 @@ li {
   .mnu1 a {
     display: inline-block;
     width: 100%;
-    height: 155px;
+    height:100%;
     font-size: 2rem;
 
   }
@@ -142,10 +145,10 @@ li {
     right: 0;
     left: 0;
     line-height: 155px;
-    transform: translateY(0px);
+    transform: translateY(-300px);
     transition-duration: 600ms;
     z-index: -10;
-    overflow: hidden;
+    /*overflow: hidden;*/
   }
 
   .mnu2 li {
@@ -153,7 +156,7 @@ li {
   }
 
   .mnu1 li:hover .mnu2 {
-    transform: translateY(155px);
+    transform: translateY(466px);
     transition-duration: 600ms;
   }
 
@@ -168,13 +171,13 @@ li {
 
 .top-back {
 
-  height: 38.8vw;
+  height: 100%;
   background-size: cover;
   background-repeat: no-repeat;
   background-position: top center;
   background-image: url(../other/homepage-featured-new-1920x745.jpg);
   text-align: center;
-  padding: 12vw 0 5vw 0;
+  padding: 10% 2% 15% 2%;
 }
 
 .top-back h1 {
@@ -216,55 +219,75 @@ li {
   background-color: #1E2024;
   color: white;
   display: inline-block;
-  padding: 3% 7%;
-
+  padding: 0 4%;
 }
 
 .service h2 {
-  font-size: 2.1rem;
-  line-height: 2.5rem;
+  font-size: 2.3rem;
+  line-height: 2.1rem;
+  margin: 0;
 }
 
 .service h5 {
-  font-size: 1.2rem;
+  padding-top: 15%;
+  font-size: 1.1rem;
   line-height: 1rem;
+  margin: 0;
 }
 
 .lser {
   float: left;
-  width: 20%;
-  height: 45vw;
+  width: 19%;
+  padding: 4% 0 6% 5%;
+
 }
 
 .rser {
   float: left;
-  width: 60%;
-  height: 45vw;
-  padding-left: 10%;
-
+  width: 74%;
+  height: 530px;
+  padding: 4% 0 3% 19%;
 }
 
 .rser dl {
   position: relative;
   display: block;
-  padding-left: 40px;
+  margin: 0;
 }
 
 .service dt {
   display: block;
-  width: 20%;
+  width: 22%;
+  margin: 0;
 }
 
 .service dd {
   display: none;
+  position: absolute;
+  left: 35%;
+  top: 0;
+  bottom: 2px;
+  margin: 0;
+  font-size: .9rem;
 }
 
-.service a {
+.service dd figure {
+  margin: 0;
+  height: 98%;
+
+}
+
+.service dd figure  img {
+  max-width:100%;
+  max-height:100%;
+}
+
+.service dt a {
   display: block;
   color: #7a7a7a;
-  font-size: 1.6rem;
+  font-size: 1.5rem;
   line-height: 3rem;
-  padding-right: 3rem;
+  font-weight: 200;
   width: 100%;
 }
 
@@ -274,11 +297,7 @@ li {
 
 .service dt:hover + dd {
   display: block;
-  position: absolute;
-  left: 190px;
-  top: 0;
   width: 100%;
-  /*height: 50%;*/
   text-align: center;
 }
 
@@ -326,8 +345,8 @@ li {
   font-size: .9rem;
   text-align: center;
   vertical-align: middle;
-  padding: 1vw 2.4vw;
-  margin: 2vw 3vw;
+  padding: .8rem 2rem;
+  margin: 2rem auto ;
   border-radius: 26px;
   transition-property: transform, box-shadow;
   transition-duration: 0.3s;
@@ -470,6 +489,14 @@ li {
   transition-duration: 0.7s;
   overflow: hidden;
 
+}
+
+.our-b {
+  padding: 140% 12% ;
+}
+
+.exp a {
+  padding: 140% 12% ;
 }
 
 .our-b h3 {
@@ -631,8 +658,14 @@ li {
 /*============================ @ media  */
 
 
+  @media screen and (max-width: 700px) {
 
-@media (max-width: 700px) {
+
+
+
+
+  /*========== top-nav*/
+
   .top-nav {
     display: none;
     height: 100vw;
@@ -672,6 +705,61 @@ li {
 
 .wt-back {
   width: 100%;
+}
+
+/* ================ top-back */
+
+    .top-back {
+      height: 100%;
+    }
+
+    .top-back h1 {
+      font-size: 3rem;
+    }
+
+    /* ================= btn */
+
+    .rd-btn,
+    .wt-btn {
+      font-size: 1.2rem;
+      padding: 1.1rem 3rem;
+      margin: 2rem auto;
+      border-radius: 26px;
+      transition-property: transform, box-shadow;
+      transition-duration: 0.3s;
+    }
+
+    /*=========== service */
+.service {
+  width: 100%;
+  height: 100%;
+}
+
+.lser {
+  float: none;
+  width: 100%;
+}
+
+.rser{
+  float: none;
+  width: 100%;
+  padding-left: 15px ;
+}
+
+.rser dt a {
+  font-size: 2rem;
+}
+
+.rser dd {
+  top: 100%;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
+
+.rser dd img {
+width: initial;
+  height: initial;
 }
 }
 
