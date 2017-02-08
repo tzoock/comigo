@@ -1,5 +1,5 @@
 /*--------global--------------*/
-html,
+
 body {
   font-size: 100%;
   font-family: 'Source Sans Pro', sans-serif;
@@ -48,7 +48,7 @@ li {
   left: 0;
   right: 0;
   padding-right: 20px;
-  z-index: 10;
+  z-index: 10.5;
   box-shadow: 0 0 20px 1px rgba(21, 21, 21, 0.81);
 }
 
@@ -71,7 +71,8 @@ li {
   }
 
   .top-menu .mnu0 {
-    margin: 0 auto;
+    margin: 0;
+    padding: 0;
     line-height: 66px;
     overflow: hidden;
   }
@@ -106,7 +107,7 @@ li {
     right: 0;
     opacity: .8;
     padding: 0;
-    z-index: 5;
+    z-index: 10.1;
     transform: translateY(0);
     transition-duration: 600ms;
     overflow: hidden;
@@ -115,6 +116,7 @@ li {
   .mnu0 li:hover .mnu1 {
     transform: translateY(366px);
     transition-duration: 600ms;
+    transition: z-index: 6
   }
 
   .mnu1 li {
