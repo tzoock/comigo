@@ -48,7 +48,7 @@ li {
   left: 0;
   right: 0;
   padding-right: 20px;
-  z-index: 10.5;
+  z-index: 100;
   box-shadow: 0 0 20px 1px rgba(21, 21, 21, 0.81);
 }
 
@@ -107,16 +107,15 @@ li {
     right: 0;
     opacity: .8;
     padding: 0;
-    z-index: 10.1;
+    z-index: -100;
     transform: translateY(0);
     transition-duration: 600ms;
-    overflow: hidden;
+    /*overflow: hidden;*/
   }
 
   .mnu0 li:hover .mnu1 {
     transform: translateY(366px);
     transition-duration: 600ms;
-    transition: z-index: 6
   }
 
   .mnu1 li {
@@ -147,18 +146,21 @@ li {
     right: 0;
     left: 0;
     line-height: 155px;
-    transform: translateY(-300px);
+    transform: translateY(0px);
     transition-duration: 600ms;
-    z-index: -10;
+    z-index: -100;
     /*overflow: hidden;*/
   }
 
   .mnu2 li {
     width: 50%;
+    height: 155px;
+    vertical-align: middle;
+    display: block;
   }
 
   .mnu1 li:hover .mnu2 {
-    transform: translateY(466px);
+    transform: translateY(155px);
     transition-duration: 600ms;
   }
 
@@ -222,7 +224,9 @@ li {
   color: white;
   display: inline-block;
   padding: 0 4%;
+  /*overflow: auto;*/
 }
+
 
 .service h2 {
   font-size: 2.3rem;
@@ -246,9 +250,9 @@ li {
 
 .rser {
   float: left;
-  width: 74%;
+  width: 72%;
   height: 530px;
-  padding: 4% 0 3% 19%;
+  padding: 4% 3% 0 19%;
 }
 
 .rser dl {
@@ -266,7 +270,7 @@ li {
 .service dd {
   display: none;
   position: absolute;
-  left: 35%;
+  left: 34%;
   top: 0;
   bottom: 2px;
   margin: 0;
@@ -275,7 +279,8 @@ li {
 
 .service dd figure {
   margin: 0;
-  height: 98%;
+  height: 400px;
+  width: 80%;
 
 }
 
@@ -307,6 +312,7 @@ li {
 
 .rd-wt {
   width: 100%;
+  height: 600px;
 
 }
 
@@ -317,26 +323,42 @@ li {
 }
 
 .rd-back {
+  position: relative;
   color: white;
-  height: 42vw;
+  height: 100%;
   width: 50%;
   background-image: url("../other/ic_EI_cloud_2_home_page.png"), url("../other/home-tv-service-bg1.png");
   background-repeat: no-repeat, no-repeat;
   background-position: 50% 20%, center;
   background-size: 45%, cover;
   float: left;
-  padding: 10% 0 0 15px;
+  margin: 0 auto;
+}
+
+.rd-back>div {
+  position: absolute;
+  bottom: 5px;
+  left: 20%;
+  right: 10%;
 }
 
 .wt-back {
-  height: 42vw;
+  position: relative;
+  height: 100%;
   width: 50%;
   background-image: url("../other/ic-stb-screens.png"), url("../other/home-tv-service-bg2.png");
   background-repeat: no-repeat, no-repeat;
   background-position: 50% 20%, center;
   background-size: 45%, cover;
   float: left;
-  padding: 10% 0 0 15px;
+  margin: 0 auto;
+}
+
+.wt-back > div {
+  position: absolute;
+  bottom: 5px;
+  left: 20%;
+  right: 10%;
 }
 
 /*=============btns=================*/
@@ -382,7 +404,7 @@ li {
 /* ============================== tv */
 
 .tv {
-  height: 50vw;
+  height: 100%;
   background-image: url("../other/screen_whos_on.jpg");
   background-repeat: no-repeat;
   background-position: 115%;
@@ -701,13 +723,12 @@ li {
     display: block;
   }
 
-.rd-back {
-  width: 100%;
-}
-
+.rd-back,
 .wt-back {
   width: 100%;
+  height: 550px;
 }
+
 
 /* ================ top-back */
 
@@ -734,7 +755,7 @@ li {
     /*=========== service */
 .service {
   width: 100%;
-  height: 100%;
+  height: 1100px;
 }
 
 .lser {
