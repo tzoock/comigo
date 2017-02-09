@@ -52,13 +52,15 @@ li {
   box-shadow: 0 0 20px 1px rgba(21, 21, 21, 0.81);
 }
 
-.logo {
-  display: inline-block;
-  padding-left: 1.7rem;
-  padding-top: 1.2rem;
-}
+
 
 @media screen and (min-width: 701px) {
+
+  .logo {
+    display: inline-block;
+    padding-left: 1.7rem;
+    padding-top: 1.2rem;
+  }
 
   .nav-btn {
     display: none;
@@ -90,7 +92,7 @@ li {
   }
 
   .mnu0 a {
-    display: inline-block;
+    display: block;
     padding-left: 8px;
     padding-right: 8px;
     font-size: .9rem;
@@ -222,7 +224,7 @@ li {
   text-align: left;
   background-color: #1E2024;
   color: white;
-  display: inline-block;
+  display: block;
   padding: 0 4%;
   /*overflow: auto;*/
 }
@@ -404,21 +406,32 @@ li {
 /* ============================== tv */
 
 .tv {
-  height: 100%;
+  position: relative;
+  height: 50vw;
+  text-align: left;
+}
+
+.tv-bkrnd {
+  height: 50vw;
+  width: 100vw;
   background-image: url("../other/screen_whos_on.jpg");
   background-repeat: no-repeat;
   background-position: 115%;
   background-size: 60%;
-  text-align: left;
-  padding-left: 10rem;
 }
 
-.tv h3 {
+.tv-txt {
+  position: absolute;
+  left: 10%;
+  bottom: 3%;
+  top: 2%;
 
+}
+
+.tv-txt h3 {
   font-size: 3rem;
-  margin-bottom: 0.4rem;
-  padding-top: 5rem;
-
+  /*margin-bottom: 0.4rem;*/
+  /*padding-top: 5rem;*/
 }
 
 /*============================ mo links */
@@ -701,8 +714,15 @@ li {
   }
   .top-menu {
     padding: 0;
+    height: 66px;
   }
 
+    .logo {
+      display: inline-block;
+      padding-left: 1.7rem;
+      padding-top: 1.2rem;
+    }
+    
   #home {
     font-weight: bold;
     color: red;
