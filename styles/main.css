@@ -6,7 +6,7 @@ body {
   /*color: #7a7a7a;*/
   box-sizing: border-box;
   margin: 0 auto;
-  padding-top: 66px ;
+  padding-top: 66px;
 }
 
 *,
@@ -51,8 +51,6 @@ li {
   z-index: 100;
   box-shadow: 0 0 20px 1px rgba(21, 21, 21, 0.81);
 }
-
-
 
 @media screen and (min-width: 701px) {
 
@@ -130,7 +128,7 @@ li {
   .mnu1 a {
     display: inline-block;
     width: 100%;
-    height:100%;
+    height: 100%;
     font-size: 2rem;
 
   }
@@ -166,13 +164,13 @@ li {
     transition-duration: 600ms;
   }
 
-
   #home {
     color: #F14848;
     font-weight: bold;
 
   }
 }
+
 /* ================================ top back */
 
 .top-back {
@@ -201,7 +199,6 @@ li {
 /*==================  why  */
 
 .why {
-
   text-align: center;
   padding: 4vw 0 4vw 0;
 }
@@ -228,7 +225,6 @@ li {
   padding: 0 4%;
   /*overflow: auto;*/
 }
-
 
 .service h2 {
   font-size: 2.3rem;
@@ -286,9 +282,9 @@ li {
 
 }
 
-.service dd figure  img {
-  max-width:100%;
-  max-height:100%;
+.service dd figure img {
+  max-width: 100%;
+  max-height: 100%;
 }
 
 .service dt a {
@@ -337,7 +333,7 @@ li {
   margin: 0 auto;
 }
 
-.rd-back>div {
+.rd-back > div {
   position: absolute;
   bottom: 5px;
   left: 20%;
@@ -365,42 +361,37 @@ li {
 
 /*=============btns=================*/
 
-.rd-btn,
-.wt-btn {
+.btn {
   display: inline-block;
   font-size: .9rem;
   text-align: center;
   vertical-align: middle;
   padding: .8rem 2rem;
-  margin: 2rem auto ;
+  margin: 2rem auto;
   border-radius: 26px;
   transition-property: transform, box-shadow;
   transition-duration: 0.3s;
 }
 
-.rd-btn:link,
-.rd-btn:visited {
+.btn:hover {
+  transform: translateY(-3px);
+  box-shadow: 0px 2px 20px 2px rgba(0, 0, 0, .15);
+}
+
+.red-btn:link,
+.red-btn:visited,
+.red-btn:hover,
+.red-btn:active {
   color: #FFFFFF;
   background-color: #F14848;
 }
 
-.rd-btn:hover,
-.rd-btn:active {
-  transform: translateY(-3px);
-  box-shadow: 0px 2px 20px 2px rgba(0, 0, 0, .15);
-}
-
-.wt-btn:link,
-.wt-btn:visited {
+.white-btn:link,
+.white-btn:visited,
+.white-btn:hover,
+.white-btn:active {
   color: #F14848;
   background-color: white;
-
-}
-
-.wt-btn:hover,
-.wt-btn:active {
-  transform: translateY(-3px);
-  box-shadow: 0px 2px 20px 2px rgba(0, 0, 0, .15);
 }
 
 /* ============================== tv */
@@ -475,19 +466,24 @@ li {
 
 .gryer {
   width: 40%;
-  height: 20vw;
+  height: 30px;
   float: left;
   background-color: #E8E8E8;
 
 }
 
 .gryer a {
-  width: 100%;
-  height: 100%;
+  width: 50px;
+  height: 50px;
   display: block;
   font-size: 2rem;
   text-align: left;
   padding: 15px;
+}
+
+.gryer a img {
+  width: 100%;
+  height: 100%;
 }
 
 .biggry {
@@ -529,11 +525,11 @@ li {
 }
 
 .our-b {
-  padding: 140% 12% ;
+  padding: 140% 12%;
 }
 
 .exp a {
-  padding: 140% 12% ;
+  padding: 140% 12%;
 }
 
 .our-b h3 {
@@ -694,15 +690,9 @@ li {
 
 /*============================ @ media  */
 
-
-  @media screen and (max-width: 700px) {
-
-
-
-
+@media screen and (max-width: 700px) {
 
   /*========== top-nav*/
-
   .top-nav {
     display: none;
     height: 100vw;
@@ -712,25 +702,27 @@ li {
     padding-left: 25px;
     overflow: auto;
   }
+
   .top-menu {
     padding: 0;
     height: 66px;
   }
 
-    .logo {
-      display: inline-block;
-      padding-left: 1.7rem;
-      padding-top: 1.2rem;
-    }
-    
+  .logo {
+    display: inline-block;
+    padding-left: 1.7rem;
+    padding-top: 1.2rem;
+  }
+
   #home {
     font-weight: bold;
     color: red;
   }
 
   .top-nav li {
-    list-style: circle ;
+    list-style: circle;
   }
+
   .nav-btn {
     display: inline-block;
     position: absolute;
@@ -743,67 +735,69 @@ li {
     display: block;
   }
 
-.rd-back,
-.wt-back {
-  width: 100%;
-  height: 550px;
+  .rd-back,
+  .wt-back {
+    width: 100%;
+    height: 550px;
+  }
+
+  /* ================ top-back */
+  .top-back {
+    height: 100%;
+  }
+
+  .top-back h1 {
+    font-size: 3rem;
+  }
+
+  /* ================= btn */
+  .btn,
+  .btn {
+    font-size: 1.2rem;
+    padding: 1.1rem 3rem;
+    margin: 2rem auto;
+    border-radius: 26px;
+    transition-property: transform, box-shadow;
+    transition-duration: 0.3s;
+  }
+
+  /*=========== service */
+  .service {
+    width: 100%;
+    height: 1100px;
+  }
+
+  .lser {
+    float: none;
+    width: 100%;
+  }
+
+  .rser {
+    float: none;
+    width: 100%;
+    padding-left: 15px;
+  }
+
+  .rser dt a {
+    font-size: 2rem;
+  }
+
+  .rser dd {
+    top: 100%;
+    left: 0;
+    right: 0;
+    bottom: 0;
+  }
+
+  .rser dd img {
+    width: initial;
+    height: initial;
+  }
 }
 
+/*================== tv */
 
-/* ================ top-back */
-
-    .top-back {
-      height: 100%;
-    }
-
-    .top-back h1 {
-      font-size: 3rem;
-    }
-
-    /* ================= btn */
-
-    .rd-btn,
-    .wt-btn {
-      font-size: 1.2rem;
-      padding: 1.1rem 3rem;
-      margin: 2rem auto;
-      border-radius: 26px;
-      transition-property: transform, box-shadow;
-      transition-duration: 0.3s;
-    }
-
-    /*=========== service */
-.service {
-  width: 100%;
-  height: 1100px;
-}
-
-.lser {
-  float: none;
-  width: 100%;
-}
-
-.rser{
-  float: none;
-  width: 100%;
-  padding-left: 15px ;
-}
-
-.rser dt a {
-  font-size: 2rem;
-}
-
-.rser dd {
-  top: 100%;
-  left: 0;
-  right: 0;
-  bottom: 0;
-}
-
-.rser dd img {
-width: initial;
-  height: initial;
-}
+.tv {
 }
 
 /*============= helpers */
