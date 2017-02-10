@@ -85,7 +85,7 @@ li {
     overflow: hidden;
     vertical-align: middle;
     transition-property: transform;
-    transition-duration: 800ms;
+    transition-duration: 600ms;
 
   }
 
@@ -95,8 +95,8 @@ li {
     padding-right: 8px;
     font-size: .9rem;
     height: 100%;
-    transition-property: transform;
-    transition-duration: 600ms;
+    /*transition-property: transform;*/
+    /*transition-duration: 600ms;*/
   }
 
   .mnu1 {
