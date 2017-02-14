@@ -13,7 +13,7 @@ body {
 *::before,
 *::after {
   box-sizing: inherit;
-  outline: red 1px solid;
+  /*outline: red 1px solid;*/
 
 }
 
@@ -309,9 +309,9 @@ li {
 /*=================== rd-wt */
 
 .rd-wt {
-  width: 100vw;
+  width: 100%;
   height: 45vw;
-
+display: block;
 }
 
 .rd-wt h2 {
@@ -398,16 +398,18 @@ li {
 
 .tv {
   display: block;
-  height: 50vw;
+  /*height: 50vw;*/
   width: 100%;
   text-align: left;
   background-color: white;
   padding-top: 2%;
+  position: relative;
 }
 
 .tv-bkrnd {
-  display: inline-block;
-  height: 50vw;
+  position: absolute;
+  right: 0;
+  height: 90%;
   width: 100%;
   background-image: url("../other/screen_whos_on.jpg");
   background-repeat: no-repeat;
@@ -416,16 +418,26 @@ li {
 }
 
 .tv-txt {
- display: inline-block;
-  width: 100%;
-  padding-left: 45px;
+ position: absolute;
+  left: 10%;
+  top: 13%;
+  bottom: 10%;
+  margin: 0;
+  padding: 0;
 
 }
 
-.tv-txt h3 {
-  font-size: 3rem;
-  /*margin-bottom: 0.4rem;*/
-  /*padding-top: 5rem;*/
+.tv-txt h2 {
+  font-size: 2.1rem;
+  font-weight: 200;
+  line-height: 1;
+  margin: 0;
+  padding: 5% 0 4% 0;
+}
+
+.tv-txt p {
+  margin: 0;
+  padding: 0;
 }
 
 /*============================ mo links */
@@ -755,6 +767,9 @@ font-size: 1.9rem;
   }
 
   /*============= rd-wt*/
+.rd-wt {
+  height: 100%;
+}
 
   .rd-back,
   .wt-back {
@@ -819,8 +834,10 @@ font-size: 1.9rem;
 
 /*================== tv */
 
-/*.tv {*/
-/*}*/
+.tv {
+  height: 500px;
+  clear: both;
+}
 
 /*============= helpers */
 
