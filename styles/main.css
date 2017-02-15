@@ -398,7 +398,7 @@ display: block;
 
 .tv {
   display: block;
-  /*height: 50vw;*/
+  height: 50vw;
   width: 100%;
   text-align: left;
   background-color: white;
@@ -830,14 +830,47 @@ font-size: 1.9rem;
     width: initial;
     height: initial;
   }
+
+  /*================== tv */
+
+  .tv {
+    height: 100%;
+    clear: both;
+    position: initial;
+  }
+
+  .tv-bkrnd {
+    width: 100%;
+    height: 300px;
+   position: initial;
+    background-position: center center ;
+  }
+
+  .tv-txt {
+    position: initial;
+    margin: 0 auto;
+    padding-left: 10%;
+    padding-bottom: 2%;
+    background-color: white;
+  }
+
+
+  .tv-txt h2 {
+    height: 100px;
+    font-size: 3rem;
+    font-weight: 200;
+    line-height: 1;
+    margin: 0;
+    padding: 5% 0 4% 0;
+  }
+
+  .tv-txt p {
+    margin: 0;
+    padding: 0;
+  }
 }
 
-/*================== tv */
 
-.tv {
-  height: 500px;
-  clear: both;
-}
 
 /*============= helpers */
 
