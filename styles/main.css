@@ -14,7 +14,6 @@ body {
 *::after {
   box-sizing: inherit;
   /*outline: red 1px solid;*/
-
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -311,7 +310,7 @@ li {
 .rd-wt {
   width: 100%;
   height: 45vw;
-display: block;
+  display: block;
 }
 
 .rd-wt h2 {
@@ -418,7 +417,7 @@ display: block;
 }
 
 .tv-txt {
- position: absolute;
+  position: absolute;
   left: 10%;
   top: 13%;
   bottom: 10%;
@@ -441,20 +440,44 @@ display: block;
   padding: 0;
 }
 
-/*============================ mo links */
+/*==============learn more */
 
-.momo {
+.learn-more {
   width: 100%;
-  height: 40vw;
+  height: 100%;
   margin: 0;
+  position: relative;
 }
 
-.lmomo {
-  float: left;
-  width: 60%;
-}
-.gry {
+.right-learn {
   width: 40%;
+  height: 100%;
+  float: right;
+  background-color: #EFEFEF;
+}
+
+.right-learn h3 {
+  font-size: 3rem;
+  margin: 15px 0 15px 25px;
+  width: 60%;
+  line-height: 3.3rem;
+  color: black;
+}
+
+.right-learn img {
+float: right;
+  width: 90%;
+  height: 80%;
+}
+
+.left-learn {
+  position: absolute;
+  width: 60%;
+  height: 100%;
+}
+
+.learn-more-header {
+  width: 70%;
   height: 50%;
   float: left;
   font-size: 4rem;
@@ -462,79 +485,105 @@ display: block;
   position: relative;
 }
 
-.gry h3 {
-  font-size: 3.8rem;
-  font-weight: 200;
-  margin: 0;
+.learn-more-header h3 {
   position: absolute;
-  bottom: 5px;
-  left: 5px;
-  padding-top: 3px;
+  bottom: 10px;
+  left: 20px;
+  font-size: 3.1rem;
+  font-weight: 400;
+  margin: 0;
+  width: 70%;
 }
 
-.grrred {
-  width: 20%;
+.brochure {
+  width: 30%;
   height: 50%;
   background-color: #F14848;
   float: left;
   position: relative;
 }
 
-.grrred a {
-  display: block;
-  width: 100%;
-  height: 100%;
+.temp-icon {
+  position: absolute;
   color: white;
-  background-color: #F14848;
+  font-size: 2rem;
+  left: 50%;
+  top: 30%;
 }
 
-.grrred a p {
+.brochure p {
+  display: block;
+  width: 100%;
+ font-size: 1.2rem;
+  color: white;
   position: absolute;
   bottom: 10px;
   left: 8px;
 }
 
-.gryish {
-  width: 20%;
+.sm-links {
+  width: 30%;
   height: 50%;
   float: left;
   background-color: #EFEFEF;
+  margin: 0;
+padding: 0;
 }
 
-.gryer {
-  width: 40%;
+.sm-links li {
+  float: left;
+  width: 45%;
+  padding: 5px;
+  margin: 5px;
+}
+
+.sm-links li a {
+
+  margin: 10px;
+  border: 1px solid;
+  border-radius: 25px ;
+  background-color: #F14848;
+
+}
+
+.schedule {
+  position: relative;
+  width: 70%;
   height: 50%;
   float: left;
   background-color: #E8E8E8;
 
 }
 
-.gryer a {
-  width: 50px;
-  height: 50px;
-  display: block;
-  font-size: 2rem;
-  text-align: left;
-  padding: 15px;
-}
-
-.gryer a img {
-  width: 100%;
+.schedule p {
+  position: absolute;
+  width: 49%;
+  text-transform: uppercase;
   height: 100%;
+  top: 5%;
+  left: 5%;
+  font-size: 1.5rem;
+  color: black;
 }
 
-.biggry {
-  width: 40%;
-  height: 40vw;
-  float: right;
-  background-color: #EFEFEF;
+/*.schedule a {*/
+  /*width: 50px;*/
+  /*height: 50px;*/
+  /*display: block;*/
+  /*font-size: 2rem;*/
+  /*text-align: left;*/
+  /*padding: 15px;*/
+/*}*/
+
+.schedule img {
+  position: absolute;
+  height: 117px;
+  width: 292px;
+  top: 32%;
+  left: 22%;
 }
 
-.biggry img {
 
-  width: 90%;
-  height: 80%;
-}
 
 /*!*===========blog================*!*/
 
@@ -734,15 +783,16 @@ display: block;
   }
 
   .service h2 {
-font-size: 1.9rem;
+    font-size: 1.9rem;
   }
 
-.rd-wt h2 {
-  font-size: 2rem;
-}
-.gry h3 {
-  font-size: 3rem;
-}
+  .rd-wt h2 {
+    font-size: 2rem;
+  }
+
+  .learn-more-header h3 {
+    font-size: 3rem;
+  }
 }
 
 @media screen and (max-width: 700px) {
@@ -792,9 +842,9 @@ font-size: 1.9rem;
   }
 
   /*============= rd-wt*/
-.rd-wt {
-  height: 100%;
-}
+  .rd-wt {
+    height: 100%;
+  }
 
   .rd-back,
   .wt-back {
@@ -857,7 +907,6 @@ font-size: 1.9rem;
   }
 
   /*================== tv */
-
   .tv {
     height: 100%;
     clear: both;
@@ -867,8 +916,8 @@ font-size: 1.9rem;
   .tv-bkrnd {
     width: 100%;
     height: 300px;
-   position: initial;
-    background-position: center center ;
+    position: initial;
+    background-position: center center;
   }
 
   .tv-txt {
@@ -880,14 +929,13 @@ font-size: 1.9rem;
     /*background-color: white;*/
   }
 
-
   .tv-txt h2 {
     font-size: 3.8rem;
     font-weight: 200;
     line-height: 1;
     margin: 0;
     padding: 5% 0 4% 0;
-    width:100%;
+    width: 100%;
   }
 
   .tv-txt p {
@@ -895,10 +943,7 @@ font-size: 1.9rem;
     padding: 0;
   }
 
-
 }
-
-
 
 /*============= helpers */
 
