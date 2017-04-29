@@ -75,6 +75,7 @@ li {
     padding: 0;
     line-height: 66px;
     overflow: hidden;
+    z-index: 1;
   }
 
   .mnu0 li {
@@ -103,7 +104,8 @@ li {
     line-height: 155px;
     left: 0;
     right: 0;
-    opacity: .8;
+    height: 0;
+    opacity: 0;
     padding: 0;
     z-index: -100;
     transform: translateY(0);
@@ -111,6 +113,9 @@ li {
   }
 
   .mnu0 li:hover .mnu1 {
+    height: 0;
+    opacity: .8;
+    z-index: -100;
     transform: translateY(221px);
     transition-duration: 600ms;
   }
@@ -701,7 +706,7 @@ li {
   padding: 0;
 }
 
-.foot-nav ul li:last-child {
+.foot-nav > ul > li:last-child {
   float: right;
 }
 
