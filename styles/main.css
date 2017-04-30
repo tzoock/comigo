@@ -636,10 +636,6 @@ li {
   padding: 140% 12%;
 }
 
-.exp a {
-  padding: 140% 12%;
-}
-
 .our-b h3 {
   font-size: 3.5rem;
   margin: 0;
@@ -660,22 +656,31 @@ li {
 
 }
 
-/*transform: translateY(-100px);*/
-
 .rmore {
   position: absolute;
-  height: 400px;
   bottom: -100px;
-  transition-property: translateY;
 }
 
-.rmore span:last-child {
+.blogs li:hover .rmore h5,
+.blogs li:hover .rmore span {
+  transform: translateY(-100px);
+
+}
+
+.rmore h5 {
+  transition: transform 0.5s;
+}
+
+.rmore span {
+  z-index: 15;
+  display: inline-block;
   width: 100%;
   height: 100px;
   padding-top: 40px;
   margin-top: 10px;
   text-align: center;
   background-color: #F14848;
+  transition: transform 0.5s;
 }
 
 .our-b {
